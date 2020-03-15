@@ -6,7 +6,8 @@
       {
         "parameter": "Value",
         "tooltip": "The real number value whose absolute value will be computed.",
-        "expects": []
+        "default": "0",
+        "expects": "Real_Number_Values"
       }
     ]
   },
@@ -17,12 +18,14 @@
       {
         "parameter": "Value",
         "tooltip": "The left-hand operand. May be any value that results in a number or vector.",
-        "expects": []
+        "default": "0",
+        "expects": "All_Values"
       },
       {
         "parameter": "Value",
         "tooltip": "The right-hand operand. May be any value that results in a number or vector.",
-        "expects": []
+        "default": "0",
+        "expects": "All_Values"
       }
     ]
   },
@@ -37,7 +40,8 @@
       {
         "parameter": "Team",
         "tooltip": "The Team or Teams from which Players may come.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "Team_Values"
       }
     ]
   },
@@ -52,7 +56,8 @@
       {
         "parameter": "Team",
         "tooltip": "The Team or Teams from which Players may come.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "Team_Values"
       }
     ]
   },
@@ -63,7 +68,8 @@
       {
         "parameter": "Team",
         "tooltip": "The Team or Teams from which Players may come.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "Team_Values"
       }
     ]
   },
@@ -74,7 +80,8 @@
       {
         "parameter": "Team",
         "tooltip": "The Team or Teams from which Players may come.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "Team_Values"
       }
     ]
   },
@@ -85,7 +92,8 @@
       {
         "parameter": "Team",
         "tooltip": "The Team or Teams from which Players may come.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "Team_Values"
       }
     ]
   },
@@ -104,7 +112,8 @@
       {
         "parameter": "Player",
         "tooltip": "The player whose allowed Heroes to acquire.",
-        "expects": []
+        "default": "Event Player"
+        "expects": "Player_Values"
       }
     ]
   },
@@ -115,7 +124,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose altitude to acquire.",
-        "expects": []
+        "default": "Event Player"
+        "expects": "Player_Values"
       }
     ]
   },
@@ -126,12 +136,14 @@
       {
         "parameter": "Value",
         "tooltip": "One of the two Inputs considered. If both are True (or equivalent to True), then the And Value is True.",
-        "expects": []
+        "default": "True",
+        "expects": "Boolean_Values"
       },
       {
         "parameter": "Value",
         "tooltip": "One of the two Inputs considered. If both are True (or equivalent to True), then the And Value is True.",
-        "expects": []
+        "default": "True",
+        "expects": "Boolean_Values"
       }
     ]
   },
@@ -142,12 +154,14 @@
       {
         "parameter": "Vector",
         "tooltip": "One of two directional vectors between which to measure the angle in degrees. This vector does not need to be pre-normalized.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "Vector_Values"
       },
       {
         "parameter": "Vector",
         "tooltip": "One of two directional vectors between which to measure the angle in degrees. This vector does not need to be pre-normalized.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "Vector_Values"
       }
     ]
   },
@@ -1051,8 +1065,8 @@
       }
     ]
   },
-  "Is Gaming In Progress": {
-    "name": "Is Gaming In Progress",
+  "Is Game In Progress": {
+    "name": "Is Game In Progress",
     "tooltip": "Whether the main phase of the match is in progress (during which time combat and scoring are allowed)."
   },
   "Is Hero Being Played": {
