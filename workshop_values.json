@@ -1,0 +1,2478 @@
+{
+  "Absolute Value": {
+    "name": "Absolute Value",
+    "tooltip": "The absolute value of the specified Value.",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "The real number value whose absolute value will be computed.",
+        "expects": []
+      }
+    ]
+  },
+  "Add": {
+    "name": "Add",
+    "tooltip": "The sum of two numbers or vectors.",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "The left-hand operand. May be any value that results in a number or vector.",
+        "expects": []
+      },
+      {
+        "parameter": "Value",
+        "tooltip": "The right-hand operand. May be any value that results in a number or vector.",
+        "expects": []
+      }
+    ]
+  },
+  "All Damage Heroes": {
+    "name": "All Damage Heroes",
+    "tooltip": "The array of all Damage Heroes in Overwatch."
+  },
+  "All Dead Players": {
+    "name": "All Dead Players",
+    "tooltip": "An array containing all dead Players on a Team or in the match.",
+    "parameters": [
+      {
+        "parameter": "Team",
+        "tooltip": "The Team or Teams from which Players may come.",
+        "expects": []
+      }
+    ]
+  },
+  "All Heroes": {
+    "name": "All Heroes",
+    "tooltip": "The array of all Heroes in Overwatch."
+  },
+  "All Living Players": {
+    "name": "All Living Players",
+    "tooltip": "An array containing all living Players on a Team or in the match.",
+    "parameters": [
+      {
+        "parameter": "Team",
+        "tooltip": "The Team or Teams from which Players may come.",
+        "expects": []
+      }
+    ]
+  },
+  "All Players": {
+    "name": "All Players",
+    "tooltip": "An array containing all Players on a Team or in the match.",
+    "parameters": [
+      {
+        "parameter": "Team",
+        "tooltip": "The Team or Teams from which Players may come.",
+        "expects": []
+      }
+    ]
+  },
+  "All Players Not On Objective": {
+    "name": "All Players Not On Objective",
+    "tooltip": "An array containing all Players occupying neither a payload nor a control point (either on a Team or in the match).",
+    "parameters": [
+      {
+        "parameter": "Team",
+        "tooltip": "The Team or Teams from which Players may come.",
+        "expects": []
+      }
+    ]
+  },
+  "All Players On Objective": {
+    "name": "All Players On Objective",
+    "tooltip": "An array containing all Players occupying a payload or control point (either on a Team or in the match).",
+    "parameters": [
+      {
+        "parameter": "Team",
+        "tooltip": "The Team or Teams from which Players may come.",
+        "expects": []
+      }
+    ]
+  },
+  "All Support Heroes": {
+    "name": "All Support Heroes",
+    "tooltip": "The array of all Support Heroes in Overwatch."
+  },
+  "All Tank Heroes": {
+    "name": "All Tank Heroes",
+    "tooltip": "The array of all Tank Heroes in Overwatch."
+  },
+  "Allowed Heroes": {
+    "name": "Allowed Heroes",
+    "tooltip": "The array of Heroes from which the specified Player is currently allowed to select.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The player whose allowed Heroes to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Altitude Of": {
+    "name": "Altitude Of",
+    "tooltip": "The Player's current height in meters above a surface. Results in 0 whenever the Player is on a surface.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose altitude to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "And": {
+    "name": "And",
+    "tooltip": "Whether both of the two Inputs are True (or equivalent to True).",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "One of the two Inputs considered. If both are True (or equivalent to True), then the And Value is True.",
+        "expects": []
+      },
+      {
+        "parameter": "Value",
+        "tooltip": "One of the two Inputs considered. If both are True (or equivalent to True), then the And Value is True.",
+        "expects": []
+      }
+    ]
+  },
+  "Angle Between Vectors": {
+    "name": "Angle Between Vectors",
+    "tooltip": "The angle in degrees between two directional vectors (no normalization required).",
+    "parameters": [
+      {
+        "parameter": "Vector",
+        "tooltip": "One of two directional vectors between which to measure the angle in degrees. This vector does not need to be pre-normalized.",
+        "expects": []
+      },
+      {
+        "parameter": "Vector",
+        "tooltip": "One of two directional vectors between which to measure the angle in degrees. This vector does not need to be pre-normalized.",
+        "expects": []
+      }
+    ]
+  },
+  "Angle Difference": {
+    "name": "Angle Difference",
+    "tooltip": "The difference in degrees between two angles. After the angles are wrapped to be within +/- 180 of each other, the result is positive if the second angle is greater than the first angle. Otherwise, the result is zero or negative.",
+    "parameters": [
+      {
+        "parameter": "Angle",
+        "tooltip": "One of the two angles between which to measure the resulting angle.",
+        "expects": []
+      },
+      {
+        "parameter": "Angle",
+        "tooltip": "One of the two angles between which to measure the resulting angle.",
+        "expects": []
+      }
+    ]
+  },
+  "Append To Array": {
+    "name": "Append To Array",
+    "tooltip": "A copy of an array with one or more Values appended to the end.",
+    "parameters": [
+      {
+        "parameter": "Array",
+        "tooltip": "The array to which to append.",
+        "expects": []
+      },
+      {
+        "parameter": "Value",
+        "tooltip": "The value to append to the end of the array. If this value is itself an array, each element is appended.",
+        "expects": []
+      }
+    ]
+  },
+  "Arccosine In Degrees": {
+    "name": "Arccosine In Degrees",
+    "tooltip": "Arccosine in degrees of the specified value.",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "Input Value for the function.",
+        "expects": []
+      }
+    ]
+  },
+  "Arccosine In Radians": {
+    "name": "Arccosine In Radians",
+    "tooltip": "Arccosine in radians of the specified Value.",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "Input Value for the function.",
+        "expects": []
+      }
+    ]
+  },
+  "Arcsine In Degrees": {
+    "name": "Arcsine In Degrees",
+    "tooltip": "Arcsine in degrees of the specified Value.",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "Input Value for the function.",
+        "expects": []
+      }
+    ]
+  },
+  "Arcsine In Radians": {
+    "name": "Arcsine In Radians",
+    "tooltip": "Arcsine in radians of the specified Value.",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "Input Value for the function.",
+        "expects": []
+      }
+    ]
+  },
+  "Arctangent In Degrees": {
+    "name": "Arctangent In Degrees",
+    "tooltip": "Arctangent in degrees of the specified Numerator and Denominator (often referred to as Atan2).",
+    "parameters": [
+      {
+        "parameter": "Numerator",
+        "tooltip": "Numerator input for the function.",
+        "expects": []
+      },
+      {
+        "parameter": "Denominator",
+        "tooltip": "Denominator input for the function.",
+        "expects": []
+      }
+    ]
+  },
+  "Arctangent In Radians": {
+    "name": "Arctangent In Radians",
+    "tooltip": "Arctangent in radians of the specified Numerator and Denominator (often referred to as Atan2).",
+    "parameters": [
+      {
+        "parameter": "Numerator",
+        "tooltip": "Numerator input for the function.",
+        "expects": []
+      },
+      {
+        "parameter": "Denominator",
+        "tooltip": "Denominator input for the function.",
+        "expects": []
+      }
+    ]
+  },
+  "Array Contains": {
+    "name": "Array Contains",
+    "tooltip": "Whether the specified Array contains the specified Value.",
+    "parameters": [
+      {
+        "parameter": "Array",
+        "tooltip": "The Array in which to search for the specified Value.",
+        "expects": []
+      },
+      {
+        "parameter": "Value",
+        "tooltip": "The Value for which to search.",
+        "expects": []
+      }
+    ]
+  },
+  "Array Slice": {
+    "name": "Array Slice",
+    "tooltip": "A copy of the specified Array containing only Values from a specified index range.",
+    "parameters": [
+      {
+        "parameter": "Array",
+        "tooltip": "The Array from which to make a copy.",
+        "expects": []
+      },
+      {
+        "parameter": "Start Index",
+        "tooltip": "The first index of the range.",
+        "expects": []
+      },
+      {
+        "parameter": "Count",
+        "tooltip": "The number of elements in the resulting Array. The resulting array will contain fewer elements if the specified range exceeds the bounds of the Array.",
+        "expects": []
+      }
+    ]
+  },
+  "Attacker": {
+    "name": "Attacker",
+    "tooltip": "The Player that dealt the damage for the Event currently being processed by this Rule. May be the same as the Victim or the Event Player."
+  },
+  "Backward": {
+    "name": "Backward",
+    "tooltip": "Shorthand for the directional Vector(0, 0, -1), which points backward."
+  },
+  "Closest Player To": {
+    "name": "Closest Player To",
+    "tooltip": "The Player closest to a position, optionally restricted by Team.",
+    "parameters": [
+      {
+        "parameter": "Center",
+        "tooltip": "The position from which to measure proximity.",
+        "expects": []
+      },
+      {
+        "parameter": "Team",
+        "tooltip": "The Team or Teams from which the closest Player will come.",
+        "expects": []
+      }
+    ]
+  },
+  "Compare": {
+    "name": "Compare",
+    "tooltip": "Whether the comparison of the two Inputs is True.",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "The left-hand side of the comparison. This may be any Value type if the operation is == or !=. Otherwise, real numbers are expected.",
+        "expects": []
+      },
+      {
+        "parameter": "Value",
+        "tooltip": "The right-hand side of the comparison. This may be any Value type if the operation is == or !=. Otherwise, real numbers are expected.",
+        "expects": []
+      }
+    ]
+  },
+  "Control Mode Scoring Percentage": {
+    "name": "Control Mode Scoring Percentage",
+    "tooltip": "The score percentage for the specified Team in Control mode.",
+    "parameters": [
+      {
+        "parameter": "Team",
+        "tooltip": "The Team whose score perecentage to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Control Mode Scoring Team": {
+    "name": "Control Mode Scoring Team",
+    "tooltip": "The Team that is current accumulating score percenrage in Control mode. Results in All if neither Team is accumulating score."
+  },
+  "Cosine From Degrees": {
+    "name": "Cosine From Degrees",
+    "tooltip": "Cosine of the specified Angle in degrees.",
+    "parameters": [
+      {
+        "parameter": "Angle",
+        "tooltip": "Angle in degrees."
+      }
+    ]
+  },
+  "Cosine From Radians": {
+    "name": "Cosine From Radians",
+    "tooltip": "Cosine of the specified Angle in radians.",
+    "parameters": [
+      {
+        "parameter": "Angle",
+        "tooltip": "Angle in radians."
+      }
+    ]
+  },
+  "Count Of": {
+    "name": "Count Of",
+    "tooltip": "The number of elements in the specified array.",
+    "parameters": [
+      {
+        "parameter": "Array",
+        "tooltip": "The array whose elemnts will be counted."
+      }
+    ]
+  },
+  "Cross Product": {
+    "name": "Cross Product",
+    "tooltip": "The cross product of the specified Values. (Left cross Up equals Forward.)",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "The left-hand-side vector operand of the cross product.",
+        "expects": []
+      },
+      {
+        "parameter": "Value",
+        "tooltip": "The right-hand-side vector operand of the cross product.",
+        "expects": []
+      }
+    ]
+  },
+  "Current Array Element": {
+    "name": "Current Array Element",
+    "tooltip": "The current array element being considered. Only meaningful during the evaluation of Values such as Filtered Array and Sorted Array."
+  },
+  "Current Game Mode": {
+    "name": "Current Game Mode",
+    "tooltip": "The current game mode of the custom game."
+  },
+  "Current Map": {
+    "name": "Current Map",
+    "tooltip": "The current map of the custom game."
+  },
+  "Custom String": {
+    "name": "Custom String",
+    "tooltip": "Custom text with optional inserted Values.",
+    "parameters": [
+      {
+        "parameter": "String",
+        "tooltip": "The resulting text. Numbers in curly braces will be replaced with the corresponding Values. (To bypass this replacement and actually display a number surrounded by curly braces, use double curly braces.)",
+        "expects": []
+      },
+      {
+        "parameter": "{0}",
+        "tooltip": "The Value that will be converted to text and used to replace {0}.",
+        "expects": []
+      },
+      {
+        "parameter": "{1}",
+        "tooltip": "The Value that will be converted to text and used to replace {1}.",
+        "expects": []
+      },
+      {
+        "parameter": "{2}",
+        "tooltip": "The Value that will be converted to text and used to replace {2}.",
+        "expects": []
+      }
+    ]
+  },
+  "Direction From Angles": {
+    "name": "Direction From Angles",
+    "tooltip": "The unit-length direction Vector corresponding to the specified angles.",
+    "parameters": [
+      {
+        "parameter": "Horizontal Angle",
+        "tooltip": "The horizontal Angle in degrees used to construct the resulting Vector.",
+        "expects": []
+      },
+      {
+        "parameter": "Vertical Angle",
+        "tooltip": "The vertical Angle in degrees used to construct the resulting Vector.",
+        "expects": []
+      }
+    ]
+  },
+  "Direction Towards": {
+    "name": "Direction Towards",
+    "tooltip": "The unit-length direction Vector from one position to another.",
+    "parameters": [
+      {
+        "parameter": "Start Pos",
+        "tooltip": "The position from which the resulting direction vector will point.",
+        "expects": []
+      },
+      {
+        "parameter": "End Pos",
+        "tooltip": "The position to which the resulting direction vector will point.",
+        "expects": []
+      }
+    ]
+  },
+  "Distance Between": {
+    "name": "Distance Between",
+    "tooltip": "The distance between two positions in meters.",
+    "parameters": [
+      {
+        "parameter": "Start Pos",
+        "tooltip": "One of the two positions used in the distance measurement.",
+        "expects": []
+      },
+      {
+        "parameter": "End Pos",
+        "tooltip": "One of the two positions used in the distance measurement.",
+        "expects": []
+      }
+    ]
+  },
+  "Divide": {
+    "name": "Divide",
+    "tooltip": "The ration of two numbers or vectors. A vector divided by a number will yield a scaled vector. Division by zero results in zero.",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "The left-hand operand. May be any value that results in a number or a vector.",
+        "expects": []
+      },
+      {
+        "parameter": "Value",
+        "tooltip": "The right-hand operand. May be any value that results in a number or a vector.",
+        "expects": []
+      }
+    ]
+  },
+  "Dot Product": {
+    "name": "Dot Product",
+    "tooltip": "The dot product of the specified Values.",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "One of two vector operands of the dot product.",
+        "expects": []
+      },
+      {
+        "parameter": "Value",
+        "tooltip": "One of two vector operands of the dot product.",
+        "expects": []
+      }
+    ]
+  },
+  "Down": {
+    "name": "Down",
+    "tooltip": "Shorthand for the directional Vector(0,-1,0), which points downward."
+  },
+  "Empty Array": {
+    "name": "Empty Array",
+    "tooltip": "An array with no elements."
+  },
+  "Entity Exists": {
+    "name": "Entity Exists",
+    "tooltip": "Whether the specified Player, icon entity, or effect entity still exists. Useful for determining if a Player has left the match or an entity has been destroyed.",
+    "parameters": [
+      {
+        "parameter": "Entity",
+        "tooltip": "The Player, icon entity, or effect entity whose existence to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Event Damage": {
+    "name": "Event Damage",
+    "tooltip": "The amount of damage received by the Victim for the Event currently being processed by this Rule."
+  },
+  "Event Healing": {
+    "name": "Event Healing",
+    "tooltip": "The amount of healing received by the Healee for the Event currently being processed by this Rule."
+  },
+  "Event Player": {
+    "name": "Event Player",
+    "tooltip": "The Player executing this Rule, as specified by the Event. May be the same as the Attacker or Victim."
+  },
+  "Event Was Critical Hit": {
+    "name": "Event Was Critical Hit",
+    "tooltip": "Whether the damage was a critical hit (such as a headshot) for the Event currently being processed by this Rule."
+  },
+  "Event Was Health Pack": {
+    "name": "Event Was Health Pack",
+    "tooltip": "Whether the healing was from a health pack for the Event currently being processed by this Rule."
+  },
+  "Eye Position": {
+    "name": "Eye Position",
+    "tooltip": "The position of a Player's first person view (used for aiming).",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose eye position to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Facing Direction Of": {
+    "name": "Facing Direction Of",
+    "tooltip": "The unit-length directional Vector of a Player's current facing relative to the world. This Value includes both horizontal and vertical facing.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose facing direction to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "False": {
+    "name": "False",
+    "tooltip": "The Boolean Value of False."
+  },
+  "Farthest Player From": {
+    "name": "Farthest Player From",
+    "tooltip": "The Player farthest from a position, optionally restricted by Team.",
+    "parameters": [
+      {
+        "parameter": "Center",
+        "tooltip": "The position from which to measure distance.",
+        "expects": []
+      },
+      {
+        "parameter": "Team",
+        "tooltip": "The Team or Teams from which the farthest Player will come.",
+        "expects": []
+      }
+    ]
+  },
+  "Filtered Array": {
+    "name": "Filtered Array",
+    "tooltip": "A copy of the specified Array with any Values that do not match the specified Condition removed.",
+    "parameters": [
+      {
+        "parameter": "Array",
+        "tooltip": "The Array whose copy will be filtered.",
+        "expects": []
+      },
+      {
+        "parameter": "Condition",
+        "tooltip": "The condition that is evaluated for each element of the copied Array. If the condition is True, the element is kept in the copied array. Use the Current Array Element Value to reference the element of the Array currently being processed.",
+        "expects": []
+      }
+    ]
+  },
+  "First Of": {
+    "name": "First Of",
+    "tooltip": "The Value at the start of the specified Array. Results in 0 if the specified Array is empty.",
+    "parameters": [
+      {
+        "parameter": "Array",
+        "tooltip": "The Array from which the Value is acquired.",
+        "expects": []
+      }
+    ]
+  },
+  "Flag Position": {
+    "name": "Flag Position",
+    "tooltip": "The position of a specific Team's flag in Capture The Flag.",
+    "parameters": [
+      {
+        "parameter": "Team",
+        "tooltip": "The Team whose flag position to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Forward": {
+    "name": "Forward",
+    "tooltip": "Shorthand for the directional Vector(0, 0, 1), which points forward."
+  },
+  "Game Mode": {
+    "name": "Game Mode",
+    "tooltip": "A Game Mode constant.",
+    "parameters": [
+      {
+        "parameter": "Game Mode",
+        "tooltip": "A Game Mode Constant.",
+        "expects": []
+      }
+    ]
+  },
+  "Global Variable": {
+    "name": "Global Variable",
+    "tooltip": "The current Value of a Global Variable, which is a Variable that belongs to the game itself.",
+    "parameters": [
+      {
+        "parameter": "Variable",
+        "tooltip": "The Variable whose Value to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Has Spawned": {
+    "name": "Has Spawned",
+    "tooltip": "Whether an Entity has spawned in the world. Results in False for Players who have not chosen a Hero yet.",
+    "parameters": [
+      {
+        "parameter": "Entity",
+        "tooltip": "The Player, icon entity, or effect entity whose presence in world to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Has Status": {
+    "name": "Has Status",
+    "tooltip": "Whether the specified Player has the specified status, either from the Set Status Action or from a non-scripted game mechanic.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose status to check.",
+        "expects": []
+      },
+      {
+        "parameter": "Status",
+        "tooltip": "The status to check for.",
+        "expects": []
+      }
+    ]
+  },
+  "Healee": {
+    "name": "Healee",
+    "tooltip": "The Player that received the healing for the Event currently being processed by this Rule. May be the same as the Healer or the Event Player."
+  },
+  "Healer": {
+    "name": "Healer",
+    "tooltip": "The Player that dealt the healing for the Event currently being processed by this Rule. May be the same as the Healee or the Event Player."
+  },
+  "Health": {
+    "name": "Health",
+    "tooltip": "The current health of a Player, including armor and shields.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose health to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Hero": {
+    "name": "Hero",
+    "tooltip": "A Hero constant.",
+    "parameters": [
+      {
+        "parameter": "Hero",
+        "tooltip": "A Hero constant.",
+        "expects": []
+      }
+    ]
+  },
+  "Hero Icon String": {
+    "name": "Hero Icon String",
+    "tooltip": "Converts a Hero parameter into a string that shows up as an icon (up to 4 per string).",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "The Hero that will be converted to an icon.",
+        "expects": []
+      }
+    ]
+  },
+  "Hero Of": {
+    "name": "Hero Of",
+    "tooltip": "The current Hero of a Player.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose Hero to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Horizontal Angle From Direction": {
+    "name": "Horizontal Angle From Direction",
+    "tooltip": "The horizontal angle in degrees corresponding to the specified direction Vector.",
+    "parameters": [
+      {
+        "parameter": "Direction",
+        "tooltip": "The direction Vector from which to acquire a horizontal angle in degrees. The Vector is unitized before calculation begins.",
+        "expects": []
+      }
+    ]
+  },
+  "Horizontal Angle Towards": {
+    "name": "Horizontal Angle Towards",
+    "tooltip": "The horizontal angle in degrees from a Player's current forward direction to the specified position. The result is positive if the position is on the Player's left. Otherwise, the result is zero or negative.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player from whose current facing the angle begins.",
+        "expects": []
+      },
+      {
+        "parameter": "Position",
+        "tooltip": "The position in the world where the angle ends.",
+        "expects": []
+      }
+    ]
+  },
+  "Horizontal Facing Angle Of": {
+    "name": "Horizontal Facing Angle Of",
+    "tooltip": "The horizontal angle in degrees of a Player's current facing relative to the world. This Value increases as the Player rotates to the left (wrapping around at +/- 180).",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose horizontal facing angle to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Horizontal Speed Of": {
+    "name": "Horizontal Speed Of",
+    "tooltip": "The current horizontal speed of a Player in meters per second. This measurement excludes all vertical motion.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose horizontal speed to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Host Player": {
+    "name": "Host Player",
+    "tooltip": "The Player that is currently the host of the custom game. This value will change if the current host player leaves the match."
+  },
+  "Icon String": {
+    "name": "Icon String",
+    "tooltip": "Allows you to use an icon inside of a string.",
+    "parameters": [
+      {
+        "parameter": "Icon",
+        "tooltip": "The icon to display.",
+        "expects": [
+          "Arrow: Down",
+          "Arrow: Left",
+          "Arrow: Right",
+          "Arrow: Up",
+          "Asterisk",
+          "Bolt",
+          "Checkmark",
+          "Circle",
+          "Club",
+          "Diamond",
+          "Dizzy",
+          "Exclamation Mark",
+          "Eye",
+          "Fire",
+          "Flag",
+          "Halo",
+          "Happy",
+          "Heart",
+          "Moon",
+          "No",
+          "Plus",
+          "Poison",
+          "Poison 2",
+          "Question Mark",
+          "Radioactive",
+          "Recycle",
+          "Ring Thick",
+          "Ring Thin",
+          "Sad",
+          "Skull",
+          "Spade",
+          "Spiral",
+          "Stop",
+          "Trashcan",
+          "Warning",
+          "X"
+        ]
+      }
+    ]
+  },
+  "Index Of Array Value": {
+    "name": "Index Of Array Value",
+    "tooltip": "The index of a Value within an Array or -1 if no such Value can be found.",
+    "parameters": [
+      {
+        "parameter": "Array",
+        "tooltip": "The Array in which to search for the specified Value.",
+        "expects": []
+      },
+      {
+        "parameter": "Value",
+        "tooltip": "The Value for which to search.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Alive": {
+    "name": "Is Alive",
+    "tooltip": "Whether a Player is alive.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose life to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Assembling Heroes": {
+    "name": "Is Assembling Heroes",
+    "tooltip": "Whether the match is currently in its Assemble Heroes phase."
+  },
+  "Is Between Rounds": {
+    "name": "Is Between Rounds",
+    "tooltip": "whether the match is between rounds."
+  },
+  "Is Button Held": {
+    "name": "Is Button Held",
+    "tooltip": "Whether a Player is holding a specific button.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose button to check.",
+        "expects": []
+      },
+      {
+        "parameter": "Button",
+        "tooltip": "The button to check.",
+        "expects": [
+          "Primary Fire",
+          "Secondary Fire",
+          "Ability 1",
+          "Ability 2",
+          "Ultimate",
+          "Interact",
+          "Jump",
+          "Crouch",
+          "Melee",
+          "Reload"
+        ]
+      }
+    ]
+  },
+  "Is Communicating": {
+    "name": "Is Communicating",
+    "tooltip": "Whether a Player is using a specific communication type (such as emoting, using a voice line, etc.).",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose communication status to check.",
+        "expects": []
+      },
+      {
+        "parameter": "Type",
+        "tooltip": "The type of communication to consider. The duration of emotes is exact, the duration of voice lines is assumed to be 4 seconds, and all other durations are assumed to be 2 seconds.",
+        "expects": [
+          "Voice Line Up",
+          "Voice Line Left",
+          "Voice Line Right",
+          "Voice Line Down",
+          "Emote Up",
+          "Emote Left",
+          "Emote Right",
+          "Emote Down",
+          "Ultimate Status",
+          "Hello",
+          "Need Healing",
+          "Group Up",
+          "Thanks",
+          "Acknowledge"
+        ]
+      }
+    ]
+  },
+  "Is Communicating Any": {
+    "name": "Is Communicating Any",
+    "tooltip": "Whether a Player is using any communication type (such as emoting, using a voice line, etc.).",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose communication status to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Communicating Any Emote": {
+    "name": "Is Communicating Any Emote",
+    "tooltip": "Whether a Player is using an emote.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose emoting status to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Communicating Any Voice Line": {
+    "name": "Is Communicating Any Voice Line",
+    "tooltip": "Whether a Player is using a voice line. (The duration of voice lines is assumed to be 4 seconds.)",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose voice line status to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Control Mode Point Locked": {
+    "name": "Is Control Mode Point Locked",
+    "tooltip": "Whether the point is locked in Control Mode."
+  },
+  "Is Crouching": {
+    "name": "Is Crouching",
+    "tooltip": "Whether a Player is crouching.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose crouching status to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is CTF Mode In Sudden Death": {
+    "name": "Is CTF Mode In Sudden Death",
+    "tooltip": "Whether the current game of Capture The Flag is in sudden death."
+  },
+  "Is Dead": {
+    "name": "Is Dead",
+    "tooltip": "Whether a Player is dead.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose death to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Dummy Bot": {
+    "name": "Is Dummy Bot",
+    "tooltip": "Whether a Player is a Dummy Bot.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "Player to consider.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Firing Primary": {
+    "name": "Is Firing Primary",
+    "tooltip": "Whether the specified Player's primary weapon attack is being used.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose primary weapon attack usage to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Firing Secondary": {
+    "name": "Is Firing Secondary",
+    "tooltip": "Whether the specified Player's secondary weapon attack is being used.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose secondary weapon attack usage to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Flag At Base": {
+    "name": "Is Flag At Base",
+    "tooltip": "Whether a specific Team's flag is at its base in Capture The Flag.",
+    "parameters": [
+      {
+        "parameter": "Team",
+        "tooltip": "The Team whose flag to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Flag Being Carried": {
+    "name": "Is Flag Being Carried",
+    "tooltip": "Whether a specific Team's flag is being carried by a member of the opposing team in Capture The Flag.",
+    "parameters": [
+      {
+        "parameter": "Team",
+        "tooltip": "The Team whose flag to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Gaming In Progress": {
+    "name": "Is Gaming In Progress",
+    "tooltip": "Whether the main phase of the match is in progress (during which time combat and scoring are allowed)."
+  },
+  "Is Hero Being Played": {
+    "name": "Is Hero Being Played",
+    "tooltip": "Whether a specific Hero is being played (either on a Team or in the match).",
+    "parameters": [
+      {
+        "parameter": "Hero",
+        "tooltip": "The Hero to check for play.",
+        "expects": []
+      },
+      {
+        "parameter": "Team",
+        "tooltip": "The Team or Teams on which to check for the Hero being played.",
+        "expects": []
+      }
+    ]
+  },
+  "Is In Air": {
+    "name": "Is In Air",
+    "tooltip": "Whether a Player is airborne.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose airborne status to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is In Line Of Sight": {
+    "name": "Is In Line Of Sight",
+    "tooltip": "Whether two positions have line of sight with each other.",
+    "parameters": [
+      {
+        "parameter": "Start Pos",
+        "tooltip": "The start position for the line-of-sight check. If a Player is provided, a position 2 meters above the Player's feet is used.",
+        "expects": []
+      },
+      {
+        "parameter": "End Pos",
+        "tooltip": "The end position for the line-of-sight check. If a Player is provided, a position 2 meters above the Player's feet is used.",
+        "expects": []
+      },
+      {
+        "parameter": "Barriers",
+        "tooltip": "Defines how barriers affect line-of-sight. When considering whether a barrier belongs to an enemy, the allegiance of the Player provided to Start Pos (if any) is used.",
+        "expects": [
+          "Barriers Do Not Block LOS",
+          "Enemy Barriers Block LOS",
+          "All Barriers Block LOS"
+        ]
+      }
+    ]
+  },
+  "Is In Setup": {
+    "name": "Is In Setup",
+    "tooltip": "Whether the match is currently in its Setup phase."
+  },
+  "Is In Spawn Room": {
+    "name": "Is In Spawn Room",
+    "tooltip": "Whether a specific Player is in the spawn room (and is thus being healed and able to change heroes).",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose spawn room status to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is In View Angle": {
+    "name": "Is In View Angle",
+    "tooltip": "Whether a Location is within view of a Player.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose view to use for the check.",
+        "expects": []
+      },
+      {
+        "parameter": "Location",
+        "tooltip": "The Location to test if it's within view.",
+        "expects": []
+      },
+      {
+        "parameter": "View Angle",
+        "tooltip": "The view angle to compare against in degrees.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Match Complete": {
+    "name": "Is Match Complete",
+    "tooltip": "Whether the match has finished."
+  },
+  "Is Moving": {
+    "name": "Is Moving",
+    "tooltip": "Whether a Player is moving (defined as having a non-zero current speed).",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose moving status to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Objective Complete": {
+    "name": "Is Objective Complete",
+    "tooltip": "Whether the specified objective has been completed. Results in False if the game mode is not Assault, Escort, or Assault/Escort.",
+    "parameters": [
+      {
+        "parameter": "Number",
+        "tooltip": "The index of the objective to consider, starting at 0 and counting up. Each control point, payload checkpoint, and payload destination has its own index.",
+        "expects": []
+      }
+    ]
+  },
+  "Is On Ground": {
+    "name": "Is On Ground",
+    "tooltip": "Whether a Player is on the ground (or other walkable surface).",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose ground status to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is On Objective": {
+    "name": "Is On Objective",
+    "tooltip": "Whether a specific Player is currently occupying a payload or capture point.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose objective status to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is On Wall": {
+    "name": "Is On Wall",
+    "tooltip": "Whether a Player is on a wall (climbing or riding).",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose wall status to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Portrait On Fire": {
+    "name": "Is Portrait On Fire",
+    "tooltip": "Whether a specific Player's portait is on fire.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose portrait to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Standing": {
+    "name": "Is Standing",
+    "tooltip": "Whether a Player is standing (defined as both not moving and not in the air).",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose standing status to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Team On Defense": {
+    "name": "Is Team On Defense",
+    "tooltip": "Whether the specified Team is currently on defense. Results in False if the game mode is not Assault, Escort, or Assault/Escort.",
+    "parameters": [
+      {
+        "parameter": "Team",
+        "tooltip": "The Team whose role to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Team On Offense": {
+    "name": "Is Team On Offense",
+    "tooltip": "Whether the specified Team is currently on offense. Results in False if the game mode is not Assault, Escort, or Assault/Escort.",
+    "parameters": [
+      {
+        "parameter": "Team",
+        "tooltip": "The Team whose role to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is True For All": {
+    "name": "Is True For All",
+    "tooltip": "Whether the specified Condition evaluates to True for every Value in the specified Array.",
+    "parameters": [
+      {
+        "parameter": "Array",
+        "tooltip": "The Array whose values will be considered.",
+        "expects": []
+      },
+      {
+        "parameter": "Condition",
+        "tooltip": "The condition that is evaluated for each element of the specified Array. Use the Current Array Element Value to reference the element of the Array currently being considered.",
+        "expects": []
+      }
+    ]
+  },
+  "Is True For Any": {
+    "name": "Is True For Any",
+    "tooltip": "Whether the specified Condition evaluates to True for any Value in the specified Array.",
+    "parameters": [
+      {
+        "parameter": "Array",
+        "tooltip": "The Array whose values will be considered.",
+        "expects": []
+      },
+      {
+        "parameter": "Condition",
+        "tooltip": "The condition that is evaluated for each element of the specified Array. Use the Current Array Element Value to reference the element of the Array currently being considered.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Using Ability 1": {
+    "name": "Is Using Ability 1",
+    "tooltip": "Whether the specified Player is using Ability 1.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose Ability 1 usage to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Using Ability 2": {
+    "name": "Is Using Ability 2",
+    "tooltip": "Whether the specified Player is using Ability 2.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose Ability 2 usage to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Using Ultimate": {
+    "name": "Is Using Ultimate",
+    "tooltip": "Whether a Player is using an ultimate ability.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose ultimate ability usage to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Is Waiting For Players": {
+    "name": "Is Waiting For Players",
+    "tooltip": "Whether the match is waiting for Players to join before starting."
+  },
+  "Last Created Entity": {
+    "name": "Last Created Entity",
+    "tooltip": "A reference to the last effect, icon entity, or dummy bot created by the Event Player (or created at the Global level)."
+  },
+  "Last Damage Modification ID": {
+    "name": "Last Damage Modification ID",
+    "tooltip": "An ID representing the most recent Start Damage Modification Action that was executed by the Event Player (or executed at the Global level)."
+  },
+  "Last Damage Over Time ID": {
+    "name": "Last Damage Over Time ID",
+    "tooltip": "An ID representing the most recent Damage Over Time Action that was executed by the Event Player (or executed at the Global level)."
+  },
+  "Last Heal Over Time ID": {
+    "name": "Last Heal Over Time ID",
+    "tooltip": "An ID representing the most recent Heal Over Time Action that was executed by the Event Player (or executed at the Global level)."
+  },
+  "Last Healing Modification ID": {
+    "name": "Last Healing Modification ID",
+    "tooltip": "An ID representing the most recent Start Healing Modification Action that was executed by the Event Player (or executed at the Global level)."
+  },
+  "Last Of": {
+    "name": "Last Of",
+    "tooltip": "The Value at the end of the specified Array. Results in 0 if the specified array is empty.",
+    "parameters": [
+      {
+        "parameter": "Array",
+        "tooltip": "The Array from which the Value is acquired.",
+        "expects": []
+      }
+    ]
+  },
+  "Last Text ID": {
+    "name": "Last Text ID",
+    "tooltip": "A reference to the last piece of text created by the Event Player (or created at the Global level) via the Create HUD Text or Create In-World Text Action."
+  },
+  "Left": {
+    "name": "Left",
+    "tooltip": "Shorthand for the directional Vector(1, 0, 0), which points to the left."
+  },
+  "Local Vector Of": {
+    "name": "Local Vector Of",
+    "tooltip": "The Vector in local coordinates corresponding to the provided Vector in world coordinates.",
+    "parameters": [
+      {
+        "parameter": "World Vector",
+        "tooltip": "The Vector in world coordinates that will be converted to local coordinates.",
+        "expects": []
+      },
+      {
+        "parameter": "Relative Player",
+        "tooltip": "The Player to whom the resulting Vector will be relative.",
+        "expects": []
+      },
+      {
+        "parameter": "Transformation",
+        "tooltip": "Specifies whether the Vector should receive a rotation and a translation (usually applied to positions) or only a rotation (usually applied to directions and velocities).",
+        "expects": [
+          "Rotation",
+          "Rotation And Translation"
+        ]
+      }
+    ]
+  },
+  "Map": {
+    "name": "Map",
+    "tooltip": "A Map constant.",
+    "parameters": [
+      {
+        "parameter": "Map",
+        "tooltip": "A Map constant.",
+        "expects": [
+          "Ayutthaya",
+          "Black Forest",
+          "Black Forest (Winter)",
+          "Blizzard World",
+          "Blizzard World (Winter)",
+          "Busan",
+          "Busan Downtown (Lunar New Year)",
+          "Busan Sanctuary (Lunar New Year)",
+          "Busan Stadium",
+          "Castillo",
+          "Château Guillard",
+          "Château Guillard (Halloween)",
+          "Dorado",
+          "Ecopoint: Antarctica",
+          "Ecopoint: Antarctica (Winter)",
+          "Eichenwalde",
+          "Eichenwalde (Halloween)",
+          "Estádio Das Rãs",
+          "Hanamura",
+          "Hanamura (Winter)",
+          "Havana",
+          "Hollywood",
+          "Hollywood (Halloween)",
+          "Horizon Lunar Colony",
+          "Ilios",
+          "Ilios Lighthouse",
+          "Ilios Ruins",
+          "Ilios Well",
+          "Junkenstein's Revenge",
+          "Junkertown",
+          "King's Row",
+          "King's Row (Winter)",
+          "Lijiang Control Center",
+          "Lijiang Control Center (Lunar New Year)",
+          "Lijiang Garden",
+          "Lijiang Garden (Lunar New Year)",
+          "Lijiang Night Market",
+          "Lijiang Night Market (Lunar New Year)",
+          "Lijiang Tower",
+          "Lijiang Tower (Lunar New Year)"
+        ]
+      }
+    ]
+  },
+  "Match Round": {
+    "name": "Match Round",
+    "tooltip": "The current round of the match, counting up from 1."
+  },
+  "Match Time": {
+    "name": "The amount of time in seconds remaining in the current game mode phase."
+  },
+  "Max": {
+    "name": "Max",
+    "tooltip": "The greater of two numbers.",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "The left-hand operand. May be any Value that results in a number.",
+        "expects": []
+      },
+      {
+        "parameter": "Value",
+        "tooltip": "The right-hand operand. May be any Value that results in a number.",
+        "expects": []
+      }
+    ]
+  },
+  "Max Health": {
+    "name": "Max Health",
+    "tooltip": "The max health of a Player, including armor and shields.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose max health to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Min": {
+    "name": "Min",
+    "tooltip": "The lesser of two numbers.",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "The left-hand operand. May be any Value that results in a number.",
+        "expects": []
+      },
+      {
+        "parameter": "Value",
+        "tooltip": "The right-hand operand. May be any Value that results in a number.",
+        "expects": []
+      }
+    ]
+  },
+  "Modulo": {
+    "name": "Modulo",
+    "tooltip": "The remainder of the left-hand operand divided by the right-hand operand. Any number modulo zero results in zero.",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "The left-hand operand. May be any Value that results in a number.",
+        "expects": []
+      },
+      {
+        "parameter": "Value",
+        "tooltip": "The right-hand operand. May be any Value that results in a number.",
+        "expects": []
+      }
+    ]
+  },
+  "Multiply": {
+    "name": "Multiply",
+    "tooltip": "The product of two numbers or vectors. A vector multiplied by a number will yield a scale vector.",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "The left-hand operand. May be any Value that results in a number or vector.",
+        "expects": []
+      },
+      {
+        "parameter": "Value",
+        "tooltip": "The right-hand operand. May be any Value that results in a number or vector.",
+        "expects": []
+      }
+    ]
+  },
+  "Nearest Walkable Position": {
+    "name": "Nearest Walkable Position",
+    "tooltip": "The position closest to the specified position that can be stood on and is accessible from a spawn point.",
+    "parameters": [
+      {
+        "parameter": "Position",
+        "tooltip": "The position from which to search for the Nearest Walkable Position.",
+        "expects": []
+      }
+    ]
+  },
+  "Normalize": {
+    "name": "Normalize",
+    "tooltip": "The unit-length normalization of a Vector.",
+    "parameters": [
+      {
+        "parameter": "Vector",
+        "tooltip": "The Vector to normalize.",
+        "expects": []
+      }
+    ]
+  },
+  "Normalized Health": {
+    "name": "Normalized Health",
+    "tooltip": "The current health of a Player, including armor and shileds, normalized between 0 and 1. (For example, 0 is no health, 0.5 is half health, 1 is full health, etc.)",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose normalized health to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Not": {
+    "name": "Not",
+    "tooltip": "Whether the Input is False (or equivalent to False).",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "When this Input is False (or equivalent to False), then the Not Value is True. Otherwise, the Not Value is False.",
+        "expects": []
+      }
+    ]
+  },
+  "Null": {
+    "name": "Null",
+    "tooltip": "The abscence of a Player. Used when no Player is desired for a particular Input. Equivalent to the real number 0 for the purposes of comparison and debugging."
+  },
+  "Number": {
+    "name": "Number",
+    "tooltip": "A real number constant.",
+    "parameters": [
+      {
+        "parameter": "Number",
+        "tooltip": "A real number constant.",
+        "expects": []
+      }
+    ]
+  },
+  "Number Of Dead Players": {
+    "name": "Number Of Dead Players",
+    "tooltip": "The number of dead Players on a Team or in the match.",
+    "parameters": [
+      {
+        "parameter": "Team",
+        "tooltip": "The Team or Teams on which to count Players.",
+        "expects": []
+      }
+    ]
+  },
+  "Number Of Deaths": {
+    "name": "Number Of Deaths",
+    "tooltip": "The number of deaths a specific Player has earned. This Value only accumulates while a game is in progress.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose death count to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Number Of Eliminations": {
+    "name": "Number Of Eliminations",
+    "tooltip": "The number of eliminations a specific Player has earned. This Value only accumulates while a game is in progress.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose eliminaton count to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Number Of Final Blows": {
+    "name": "Number Of Final Blows",
+    "tooltip": "The number of final blows a specific Player has earned. This Value only accumulates while a game is in progress.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose final blow count to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Number Of Heroes": {
+    "name": "Number Of Heroes",
+    "tooltip": "The number of Players playing a specific Hero on a Team or in the match.",
+    "parameters": [
+      {
+        "parameter": "Hero",
+        "tooltip": "The Hero to check for play.",
+        "expects": []
+      },
+      {
+        "parameter": "Team",
+        "tooltip": "The Team or Teams on which to check for the Hero being played.",
+        "expects": []
+      }
+    ]
+  },
+  "Number Of Living Players": {
+    "name": "Number Of Living Players",
+    "tooltip": "The number of living Players on a Team or in the match.",
+    "parameters": [
+      {
+        "parameter": "Team",
+        "tooltip": "The Team or Teams on which to count Players.",
+        "expects": []
+      }
+    ]
+  },
+  "Number Of Players": {
+    "name": "Number Of Players",
+    "tooltip": "The number of Players on a Team or in the match.",
+    "parameters": [
+      {
+        "parameter": "Team",
+        "tooltip": "The Team or Teams on which to count Players.",
+        "expects": []
+      }
+    ]
+  },
+  "Number Of Players On Objective": {
+    "name": "Number Of Players On Objective",
+    "tooltip": "The number of Players occupying a payload or control point (either on a Team or in the match).",
+    "parameters": [
+      {
+        "parameter": "Team",
+        "tooltip": "The Team or Teams on which to count Players.",
+        "expects": []
+      }
+    ]
+  },
+  "Objective Index": {
+    "name": "Objective Index",
+    "tooltip": "The control point, payload checkpoint, or payload destination current active (either 0, 1, or 2). Valid in Assault, Assault/Escort, Escort, or Control"
+  },
+  "Objective Position": {
+    "name": "Objective Position",
+    "tooltip": "The position in the world of the specified objective (either a control point, a payload checkpoint, or a payload destination). Valid in Assault, Assault/Escort, Escort, and Control.",
+    "parameters": [
+      {
+        "parameter": "Number",
+        "tooltip": "The index of the objective to consider, starting at 0 and counting up. Each control point, payload checkpoint, and payload destination has its own index.",
+        "expects": []
+      }
+    ]
+  },
+  "Opposite Team Of": {
+    "name": "Opposite Team Of",
+    "tooltip": "The Team opposite the specified Team.",
+    "parameters": [
+      {
+        "parameter": "Team",
+        "tooltip": "The Team whose opposite to acquire. If All, the result will be All.",
+        "expects": []
+      }
+    ]
+  },
+  "Or": {
+    "name": "Or",
+    "tooltip": "Whether either of the two Inputs are True (or equivalent to True).",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "One of the two Inputs considered. If either one is True (or equivalent to True), then the Or Value is True.",
+        "expects": []
+      },
+      {
+        "parameter": "Value",
+        "tooltip": "One of the two Inputs considered. If either one is True (or equivalent to True), then the Or Value is True.",
+        "expects": []
+      }
+    ]
+  },
+  "Payload Position": {
+    "name": "Payload Position",
+    "tooltip": "The position in the world of the active payload."
+  },
+  "Payload Progress Percentage": {
+    "name": "Payload Progress Percentage",
+    "tooltip": "The current progress towards the destination for the active payload (expressed as a percentage)."
+  },
+  "Player Carrying Flag": {
+    "name": "Player Carrying Flag",
+    "tooltip": "The Player carrying a particular Team's flag in Capture The Flag. Results in Null if no Player is carrying the flag.",
+    "parameters": [
+      {
+        "parameter": "Team",
+        "tooltip": "The Team whose flag to check.",
+        "expects": []
+      }
+    ]
+  },
+  "Player Closest To Reticle": {
+    "name": "Player Closest To Reticle",
+    "tooltip": "The Player closest to the reticle of the specified Player, optionally restricted by Team.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player from whose reticle to search for the closest Player.",
+        "expects": []
+      },
+      {
+        "parameter": "Team",
+        "tooltip": "The Team or Teams on which to search for the closest Player.",
+        "expects": []
+      }
+    ]
+  },
+  "Player Variable": {
+    "name": "Player Variable",
+    "tooltip": "The current Value of a Player Variable, which is a Variable that belongs to a specific Player.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose Variable Value to acquire.",
+        "expects": []
+      },
+      {
+        "parameter": "Variable",
+        "tooltip": "The Variable whose Value to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Players In Slot": {
+    "name": "Players In Slot",
+    "tooltip": "The Player or array of Players who occupy a specific slot in the game.",
+    "parameters": [
+      {
+        "parameter": "Slot",
+        "tooltip": "The slot number from which to acquire a Player or Players. In Team games, each Team has slots 0 through 5. In free-for-all games, slots are numbered 0 through 11",
+        "expects": []
+      },
+      {
+        "parameter": "Team",
+        "tooltip": "The Team or Teams from which to acquire a Player or Players.",
+        "expects": []
+      }
+    ]
+  },
+  "Players In View Angle": {
+    "name": "Players In View Angle",
+    "tooltip": "The Players who are within a specific view angle of a specific Player's reticle optionally restricted by Team.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose view to use for the check.",
+        "expects": []
+      },
+      {
+        "parameter": "Team",
+        "tooltip": "The Team or Teams on which to consider Players.",
+        "expects": []
+      },
+      {
+        "parameter": "View Angle",
+        "tooltip": "The view angle to compare against in degrees.",
+        "expects": []
+      }
+    ]
+  },
+  "Players On Hero": {
+    "name": "Players On Hero",
+    "tooltip": "The array of Players playing a specific Hero on a Team or in the match.",
+    "parameters": [
+      {
+        "parameter": "Hero",
+        "tooltip": "The Hero to check for play.",
+        "expects": []
+      },
+      {
+        "parameter": "Team",
+        "tooltip": "The Team or Teams on which to check for the Hero being played.",
+        "expects": []
+      }
+    ]
+  },
+  "Players Within Radius": {
+    "name": "Players Within Radius",
+    "tooltip": "An array containing all Plyers within a certain distance of a position, optionally restricted by Team and line of sight.",
+    "parameters": [
+      {
+        "parameter": "Center",
+        "tooltip": "The center position from which to measure distance.",
+        "expects": []
+      },
+      {
+        "parameter": "Radius",
+        "tooltip": "The radius in meters inside which Players must be in order to be included in the resulting array.",
+        "expects": []
+      },
+      {
+        "parameter": "Team",
+        "tooltip": "The Team or Teams to which a Player must belong to be included in the resulting array.",
+        "expects": []
+      },
+      {
+        "parameter": "LOS Check",
+        "tooltip": "Specifies whether and how a Player must pass a line-of-sight check to be included in the resulting array.",
+        "expects": [
+          "Off",
+          "Surfaces",
+          "Surfaces And Enemy Barriers",
+          "Surfaces And All Barriers"
+        ]
+      }
+    ]
+  },
+  "Point Capture Percentage": {
+    "name": "Point Capture Percentage",
+    "tooltip": "The current progress towards capture for the active control point (expressed as a percentage)."
+  },
+  "Position Of": {
+    "name": "Position Of",
+    "tooltip": "The current position of a Player as a Vector.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose position to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Raise To Power": {
+    "name": "Raise To Power",
+    "tooltip": "The left-hand operand raised to the power of the right-hand operand. If the left-had operand is negative, the result is always zero.",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "The left-hand operand. May be any Value that results in a number.",
+        "expects": []
+      },
+      {
+        "parameter": "Value",
+        "tooltip": "The right-hand operand. May be any Value that results in a number.",
+        "expects": []
+      }
+    ]
+  },
+  "Random Integer": {
+    "name": "Random Integer",
+    "tooltip": "A random integer between the specified Min and Max, inclusive.",
+    "parameters": [
+      {
+        "parameter": "Min",
+        "tooltip": "The smallest integer allowed. If a real number is provided to this Input, it is rounded to the nearest integer.",
+        "expects": []
+      },
+      {
+        "parameter": "Max",
+        "tooltip": "The largest integer allowed. If a real number is provided to this Input, it is rounded to the nearest integer.",
+        "expects": []
+      }
+    ]
+  },
+  "Random Real": {
+    "name": "Random Real",
+    "tooltip": "A random real Number between the specified Min and Max.",
+    "parameters": [
+      {
+        "parameter": "Min",
+        "tooltip": "The smallest real number allowed.",
+        "expects": []
+      },
+      {
+        "parameter": "Max",
+        "tooltip": "The largest real number allowed.",
+        "expects": []
+      }
+    ]
+  },
+  "Random Value In Array": {
+    "name": "Random Value In Array",
+    "tooltip": "A random Value from the specified array.",
+    "parameters": [
+      {
+        "parameter": "Array",
+        "tooltip": "The array from which to randomly take a Value. If a non-array Value is provided, the result is simply the provided Value.",
+        "expects": []
+      }
+    ]
+  },
+  "Randomized Array": {
+    "name": "Randomized Array",
+    "tooltip": "A copy of the specified Array with the Values in a random order.",
+    "parameters": [
+      {
+        "parameter": "Array",
+        "tooltip": "The array whose copy will be randomized.",
+        "expects": []
+      }
+    ]
+  },
+  "Ray Cast Hit Normal": {
+    "name": "Ray Cast Hit Normal",
+    "tooltip": "The surface normal at the ray cast hit position (or from End Pos to Start Pos if no hit occurs).",
+    "parameters": [
+      {
+        "parameter": "Start Pos",
+        "tooltip": "The start position for the ray cast. If a Player is provided, a position 2 meters above the Player's feet is used.",
+        "expects": []
+      },
+      {
+        "parameter": "End Pos",
+        "tooltip": "The end position for the ray cast. If a Player is provided, a position 2 meters above the Player's feet is used.",
+        "expects": []
+      },
+      {
+        "parameter": "Players To Include",
+        "tooltip": "Which Players can be hit by this ray cast.",
+        "expects": []
+      },
+      {
+        "parameter": "Players To Exclude",
+        "tooltip": "Which Players cannot be hit by this ray cast. This list takes precedence over Players to include.",
+        "expects": []
+      },
+      {
+        "parameter": "Include Player Owned Objects",
+        "tooltip": "Whether Player owned objects (such as barriers or turrets) should be included in the ray cast.",
+        "expects": []
+      }
+    ]
+  },
+  "Ray Cast Hit Player": {
+    "name": "Ray Cast Hit Player",
+    "tooltip": "The Player hit by the ray cast (or Null if no Player is hit).",
+    "parameters": [
+      {
+        "parameter": "Start Pos",
+        "tooltip": "The start position for the ray cast. If a Player is provided, a position 2 meters above the Player's feet is used.",
+        "expects": []
+      },
+      {
+        "parameter": "End Pos",
+        "tooltip": "The end position for the ray cast. If a Player is provided, a position 2 meters above the Player's feet is used.",
+        "expects": []
+      },
+      {
+        "parameter": "Players To Include",
+        "tooltip": "Which Players can be hit by this ray cast.",
+        "expects": []
+      },
+      {
+        "parameter": "Players To Exclude",
+        "tooltip": "Which Players cannot be hit by this ray cast. This list takes precedence over Players to include.",
+        "expects": []
+      },
+      {
+        "parameter": "Include Player Owned Objects",
+        "tooltip": "Whether Player owned objects (such as barriers or turrets) should be included in the ray cast.",
+        "expects": []
+      }
+    ]
+  },
+  "Ray Cast Hit Position": {
+    "name": "Ray Cast Hit Position",
+    "tooltip": "The position where the ray cast hits a surface, object, or Player (or the End Pos if no it occurs).",
+    "parameters": [
+      {
+        "parameter": "Start Pos",
+        "tooltip": "The start position for the ray cast. If a Player is provided, a position 2 meters above the Player's feet is used.",
+        "expects": []
+      },
+      {
+        "parameter": "End Pos",
+        "tooltip": "The end position for the ray cast. If a Player is provided, a position 2 meters above the Player's feet is used.",
+        "expects": []
+      },
+      {
+        "parameter": "Players To Include",
+        "tooltip": "Which Players can be hit by this ray cast.",
+        "expects": []
+      },
+      {
+        "parameter": "Players To Exclude",
+        "tooltip": "Which Players cannot be hit by this ray cast. This list takes precedence over Players to include.",
+        "expects": []
+      },
+      {
+        "parameter": "Include Player Owned Objects",
+        "tooltip": "Whether Player owned objects (such as barriers or turrets) should be included in the ray cast.",
+        "expects": []
+      }
+    ]
+  },
+  "Remove From Array": {
+    "name": "Remove From Array",
+    "tooltip": "A copy of an array with one or more Values removed (if found).",
+    "parameters": [
+      {
+        "parameter": "Array",
+        "tooltip": "The array from which to remove Values.",
+        "expects": []
+      },
+      {
+        "parameter": "Value",
+        "tooltip": "The Value to remove from the array (if found). If this Value is itself an array, each matching element is removed.",
+        "expects": []
+      }
+    ]
+  },
+  "Right": {
+    "name": "Right",
+    "tooltip": "Shorthand for the directional Vector(-1, 0, 0), which points to the right."
+  },
+  "Round To Integer": {
+    "name": "Round To Integer",
+    "tooltip": "The integer to which the specified Value rounds.",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "The real number to round.",
+        "expects": []
+      },
+      {
+        "parameter": "Rounding Type",
+        "tooltip": "Determines the direction in which the Value will be rounded.",
+        "expects": [
+          "Up",
+          "Down",
+          "To Nearest"
+        ]
+      }
+    ]
+  },
+  "Score Of": {
+    "name": "Score Of",
+    "tooltip": "The current score of a Player. Results in 0 if the game mode is not free-for-all.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose score to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Server Load": {
+    "name": "Server Load",
+    "tooltip": "Provides a percentage representing the CPU load of the current game instance. As this number approaches or exceeds 100, it becomes increasingly likely that the instance will be shut down because it is consuming too many resources."
+  },
+  "Server Load Average": {
+    "name": "Server Load Average",
+    "tooltip": "Provides a percentage representing the average CPU load of the current game instance over the last two seconds. As this number approaches or exceeds 100, it becomes increasingly likely that the instance will be shut down because it is consuming too many resources."
+  },
+  "Server Load Peak": {
+    "name": "Server Load Peak",
+    "tooltip": "Provides a percentage representing the highest CPU load of the current game instance over the last two seconds. As this number approaches or exceeds 100, it becomes increasingly likely that the instance will be shut down because it is consuming too many resources."
+  },
+  "Sine From Degrees": {
+    "name": "Sine From Degrees",
+    "tooltip": "Sine of the specified Angle in degrees.",
+    "parameters": [
+      {
+        "parameter": "Angle",
+        "tooltip": "Angle in degrees.",
+        "expects": []
+      }
+    ]
+  },
+  "Sine From Radians": {
+    "name": "Sine From Radians",
+    "tooltip": "Sine of the specified Angle in radians.",
+    "parameters": [
+      {
+        "parameter": "Angle",
+        "tooltip": "Angle in radians.",
+        "expects": []
+      }
+    ]
+  },
+  "Slot Of": {
+    "name": "Slot Of",
+    "tooltip": "The slot number of the specified Player. In team games, each team has slots 0 through 5. In free-for-all games, slots are numbered 0 through 11.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose slot number to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Sorted Array": {
+    "name": "Sorted Array",
+    "tooltip": "A copy of the specified Array with the Values sorted according to the Value Rank that is evaluated for each element.",
+    "parameters": [
+      {
+        "parameter": "Array",
+        "tooltip": "The array whose copy will be sorted.",
+        "expects": []
+      },
+      {
+        "parameter": "Value Rank",
+        "tooltip": "The Value that is evaluated for each element of the copied array. The array is sorted by this rank in ascending order. Use the Current Array Element Value to reference the element of the array currently being processed.",
+        "expects": []
+      }
+    ]
+  },
+  "Speed Of": {
+    "name": "Speed Of",
+    "tooltip": "The current speed of a Player in meters per second.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose speed to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Speed Of In Direction": {
+    "name": "Speed Of In Direction",
+    "tooltip": "The current speed of a Player in a specific Direction in meters per second.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose speed to acquire.",
+        "expects": []
+      },
+      {
+        "parameter": "Direction",
+        "tooltip": "The direction of travel in which to measure the Player's speed.",
+        "expects": []
+      }
+    ]
+  },
+  "Square Root": {
+    "name": "Square Root",
+    "tooltip": "The square root of the specified Value.",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "The real number whose square root will be computed. Negative Values result in zero.",
+        "expects": []
+      }
+    ]
+  },
+  "String": {
+    "name": "String",
+    "tooltip": "Text formed from a selection of strings and specified Values.",
+    "parameters": [
+      {
+        "parameter": "String",
+        "tooltip": "The resulting text. Numbers in curly braces will be replaced with the corresponding Values.",
+        "expects": []
+      },
+      {
+        "parameter": "{0}",
+        "tooltip": "The Value that will be converted to text and used to replace {0}.",
+        "expects": []
+      },
+      {
+        "parameter": "{1}",
+        "tooltip": "The Value that will be converted to text and used to replace {1}.",
+        "expects": []
+      },
+      {
+        "parameter": "{2}",
+        "tooltip": "The Value that will be converted to text and used to replace {2}.",
+        "expects": []
+      }
+    ]
+  },
+  "Subtract": {
+    "name": "Subtract",
+    "tooltip": "The difference between two numbers or vectors.",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "The left-hand operand. May be any Value that results in a number or vector.",
+        "expects": []
+      },
+      {
+        "parameter": "Value",
+        "tooltip": "The right-hand operand. May be any Value that results in a number or vector.",
+        "expects": []
+      }
+    ]
+  },
+  "Tangent From Degrees": {
+    "name": "Tangent From Degrees",
+    "tooltip": "Tangent of the specified Angle in degrees.",
+    "parameters": [
+      {
+        "parameter": "Angle",
+        "tooltip": "Angle in degrees.",
+        "expects": []
+      }
+    ]
+  },
+  "Tangent From Radians": {
+    "name": "Tangent From Radians",
+    "tooltip": "Tangent of the specified Angle in radians.",
+    "parameters": [
+      {
+        "parameter": "Angle",
+        "tooltip": "Angle in radians.",
+        "expects": []
+      }
+    ]
+  },
+  "Team": {
+    "name": "Team",
+    "tooltip": "A Team constant. The All option represents both Teams in a team game or all players in a free-for-all game.",
+    "parameters": [
+      {
+        "parameter": "Team",
+        "tooltip": "A Team constant. The All option represents both Teams in a team game or all players in a free-for-all game.",
+        "expects": [
+          "All",
+          "Team 1",
+          "Team 2"
+        ]
+      }
+    ]
+  },
+  "Team Of": {
+    "name": "Team Of",
+    "tooltip": "The Team of a Player. If the game mode is free-for-all, the Team is considered to be All.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose Team to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Team Score": {
+    "name": "Team Score",
+    "tooltip": "The current score for the specified Team. Results in 0 in free-for-all game modes.",
+    "parameters": [
+      {
+        "parameter": "Team",
+        "tooltip": "The Team whose score to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Throttle Of": {
+    "name": "Throttle Of",
+    "tooltip": "The directional input of a Player, represented by a Vector with horizontal input on the X component (positive to the left) and vertical input on the Z component (positive upward).",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose directional input to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Total Time Elapsed": {
+    "name": "Total Time Elapsed",
+    "tooltip": "The total time in seconds that have elapsed since the game instance was created (including setup time and transitions)."
+  },
+  "True": {
+    "name": "True",
+    "tooltip": "The Boolean Value of True."
+  },
+  "Ultimate Charge Percent": {
+    "name": "Ultimate Charge Percent",
+    "tooltip": "The current ultimate ability charge percentage of a Player.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose ultimate charge percentage to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Up": {
+    "name": "Up",
+    "tooltip": "Shorthand for the direction Vector(0, 1, 0), which points upward."
+  },
+  "Value In Array": {
+    "name": "Value In Array",
+    "tooltip": "The Value found at a specific element of an Array. Results in 0 if the element does not exist.",
+    "parameters": [
+      {
+        "parameter": "Array",
+        "tooltip": "The array whose element to acquire.",
+        "expects": []
+      },
+      {
+        "parameter": "Index",
+        "tooltip": "The index of the element to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Vector": {
+    "name": "Vector",
+    "tooltip": "A vector composed of three real numbers (X, Y, Z) where X is left, Y is up, and Z is forward. Vectors are used for position, direction, and velocity.",
+    "parameters": [
+      {
+        "parameter": "X",
+        "tooltip": "The X Value of the vector.",
+        "expects": []
+      },
+      {
+        "parameter": "Y",
+        "tooltip": "The Y Value of the vector.",
+        "expects": []
+      },
+      {
+        "parameter": "Z",
+        "tooltip": "The Z Value of the vector.",
+        "expects": []
+      }
+    ]
+  },
+  "Vector Towards": {
+    "name": "Vector Towards",
+    "tooltip": "The displacement Vector from one position to another.",
+    "parameters": [
+      {
+        "parameter": "Start Pos",
+        "tooltip": "The position from which the resulting displacement Vector begins.",
+        "expects": []
+      },
+      {
+        "parameter": "End Pos",
+        "tooltip": "The position at which the resulting displacement Vector ends.",
+        "expects": []
+      }
+    ]
+  },
+  "Velocity Of": {
+    "name": "Velocity Of",
+    "tooltip": "The current velocity of a Player as a Vector. If the Player is on a surface, the Y component of this velocity will be 0, even when traveling up or down a slope.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose velocty to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Vertical Angle From Direction": {
+    "name": "Vertical Angle From Direction",
+    "tooltip": "The vertical angle in degrees corresponding to the specified direction Vector.",
+    "parameters": [
+      {
+        "parameter": "Direction",
+        "tooltip": "The direction Vector from which to acquire a vertical angle in degrees. The Vector is unitized before calculation begins.",
+        "expects": []
+      }
+    ]
+  },
+  "Vertical Angle Towards": {
+    "name": "Vertical Angle Towards",
+    "tooltip": "The vertical angle in degrees from a Player's current forward direction to the specified position. The result is positive if the position is below the Player. Otherwise, the result is zero or negative.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player from whose current facing the angle begins.",
+        "expects": []
+      },
+      {
+        "parameter": "Position",
+        "tooltip": "The position in the world where the angle ends.",
+        "expects": []
+      }
+    ]
+  },
+  "Vertical Facing Angle Of": {
+    "name": "Vertical Facing Angle Of",
+    "tooltip": "The vertical angle in degrees of a Player's current facing relative to the world. This Value increases as the Player looks down.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose vertical facing angle to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Vertical Speed Of": {
+    "name": "Vertical Speed Of",
+    "tooltip": "The current vertical speed of a Player in meters per second. This measurement excludes all horizontal motion, including motion whil traveling up and down slopes.",
+    "parameters": [
+      {
+        "parameter": "Player",
+        "tooltip": "The Player whose vertical speed to acquire.",
+        "expects": []
+      }
+    ]
+  },
+  "Victim": {
+    "name": "Victim",
+    "tooltip": "The Player that received the damage for the Event currently being processed by this Rule. May be the same as the Attacker or the Event Player."
+  },
+  "World Vector Of": {
+    "name": "World Vector Of",
+    "tooltip": "The Vector in world coordinates corresponding to the provided Vector in local coordinates.",
+    "parameters": [
+      {
+        "parameter": "Local Vector",
+        "tooltip": "The Vector in local coordinates that will be converted to world coordinates.",
+        "expects": []
+      },
+      {
+        "parameter": "Relative Player",
+        "tooltip": "The Player to whom the local vector is relative.",
+        "expects": []
+      },
+      {
+        "parameter": "Transformation",
+        "tooltip": "Specifies whether the Vector should receive a rotation and a translation (usually applied to positions) or only a rotation (usually applied to directions and velocities).",
+        "expects": []
+      }
+    ]
+  },
+  "X Component Of": {
+    "name": "X Component Of",
+    "tooltip": "The X component of the specified Vector, usually representing a leftward amount.",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "The Vector from which to acquire the X component.",
+        "expects": []
+      }
+    ]
+  },
+  "Y Component Of": {
+    "name": "Y Component Of",
+    "tooltip": "The Y component of the specified Vector, usually representing an upward amount.",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "The Vector from which to acquire the Y component.",
+        "expects": []
+      }
+    ]
+  },
+  "Z Component Of": {
+    "name": "Z Component Of",
+    "tooltip": "The Z component of the specified Vector, usually representing a forward amount.",
+    "parameters": [
+      {
+        "parameter": "Value",
+        "tooltip": "The Vector from which to acquire the Z component.",
+        "expects": []
+      }
+    ]
+  }
+}
