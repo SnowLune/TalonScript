@@ -1,0 +1,229 @@
+{
+    "template": {
+        "name": "",
+        "talonscript": "",
+        "tooltip": "",
+        "parameters": [
+            {
+                "parameter": "",
+                "tooltip": "",
+                "default": "",
+                "expects": []
+            }
+        ]
+    },
+    "Abort": {
+        "name": "Abort",
+        "tooltip": "",
+        "parameters": [
+            {
+                "parameter": "",
+                "tooltip": "",
+                "expects": []
+            }
+        ]
+    },
+    "Abort If": {
+        "name": "Abort",
+        "tooltip": "",
+        "parameters": [
+            {
+                "parameter": "",
+                "tooltip": "",
+                "expects": []
+            }
+        ]
+    },
+    "Abort If Condition Is False": {
+        "name": "Abort If Condition Is False",
+        "tooltip": "",
+        "parameters": [
+            {
+                "parameter": "",
+                "tooltip": "",
+                "expects": []
+            }
+        ]
+    },
+    "Abort If Condition Is True": {
+        "name": "Abort If Condition Is True",
+        "tooltip": "",
+        "parameters": [
+            {
+                "parameter": "",
+                "tooltip": "",
+                "expects": []
+            }
+        ]
+    },
+    "Allow Button": {
+        "name": "Allow Button",
+        "tooltip": "",
+        "parameters": [
+            {
+                "parameter": "Player",
+                "tooltip": "",
+                "expects": []
+            }
+            {
+                "parameter": "Button",
+                "tooltip": "",
+                "expects": []
+            }
+        ]
+    },
+    "Apply Impulse": {
+        "name": "Apply Impulse",
+        "tooltip": "",
+        "parameters": [
+            {
+                "parameter": "Player",
+                "tooltip": "",
+                "expects": []
+            },
+            {
+                "parameter": "Direction",
+                "tooltip": "",
+                "expects": []
+            },
+            {
+                "parameter": "Speed",
+                "tooltip": "",
+                "expects": []
+            },
+            {
+                "parameter": "Relative",
+                "tooltip": "",
+                "expects": []
+            },
+            {
+                "parameter": "Motion",
+                "tooltip": "",
+                "expects": []
+            }
+        ]
+    }
+}
+Allow Button
+    allowButton([player], [button])
+
+Apply Impulse
+    applyImpulse([player], [direction], [speed], [relative], [motion])
+        relative = To World, To Player
+        motion = Incorporate Contrary motion, Cancel Contrary Motion
+
+Big Message
+    bigMessage([visible to], [header])
+
+Call Subroutine
+    [subroutine name]()
+
+Chase Global Variable At Rate
+    chaseGlobalVarAtRate([variable], [destination], [rate], [reevaluation])
+        reevaluation = Destination And Rate, None
+
+Chase Global Variable Over Time
+    chaseGlobalVarOverTime([variable], [destination], [duration], [reevaluation])
+        reevaluation = Destination And Duration, None
+
+Chase Player Variable At Rate
+    chasePlayerVarAtRate([player], [variable], [destination], [rate], [reevaluation])
+        reevaluation = Destination And Rate, None
+
+Chase Player Variable Over Time
+    chasePlayerVarOverTime([player], [variable], [destination], [duration], [reevaluation])
+        reevaluation = Destination And Duration, None
+
+Clear Status
+    clearStatus([player], [status])
+        status = Hacked, Burning, Knocked Down, Asleep, Frozen, Unkillable, Invincible, Phased Out, Rooted, Stunned
+
+Communicate
+    communicate([player], [type])
+        type = Voice Line Up, Voice Line Down, Voice Line Left, Voice Line Right, Emote Up, Emote Down, Emote Left, 
+            Emote Right, Ultimate Status, Hello, Need Healing, Group Up, Thanks, Acknowledge
+
+{
+    "action": {
+
+        "name": "Create Beam Effect",
+        "tooltip": "Creates an in-world beam effect entity. This effect entity will persist until destroyed. To obtain a reference to this entity, use the Last Created Entity Value. This Action will fail if too many entities have been created.",
+
+        "parameters": [{
+                "parameter": "Visible To",
+                "tooltip": "One or more players who will be able to see the effect.",
+                "expects": [
+                    "Add",
+                    "All Dead Players",
+                    "All Living Players",
+                    "All Players",
+                    "All Players Not On Objective",
+                    "All Players On Objective",
+                    "Append To Array",
+                    "Array Contains",
+                    "Array Slice",
+                    "Attacker",
+                    "Closest Player To",
+                    "Current Array Element",
+                    "Divide",
+                    "Empty Array",
+                    "Event Player",
+                    "Farthest Player From",
+                    "Filtered Array",
+                    "First Of",
+                    "Global Variable",
+                    "Healee",
+                    "Healer",
+                    "Host Player",
+                    "Index Of Array Value",
+                    "Is True For All",
+                    "Is True For Any",
+                    "Is Using Ultimate",
+                    "Last Created Entity",
+                    "Last Of",
+                    "Multiply",
+                    "Null",
+                    "Player Carrying Flag",
+                    "Player Closest To Reticle",
+                    "Player Variable",
+                    "Players In Slot",
+                    "Players In View Angle",
+                    "Players On Hero",
+                    "Players Within Radius",
+                    "Random Value In Array",
+                    "Randomized Array",
+                    "Ray Cast Hit Player",
+                    "Remove From Array",
+                    "Sorted Array",
+                    "Subtract",
+                    "Value In Array",
+                    "Victim"
+                ]
+            },
+            {
+                "parameter": "Beam Type",
+                "tooltip": "The type of effect to be created.",
+                "expects": ["Good Beam", "Bad Beam", "Grapple Beam"]
+            },
+            {
+                "parameter": "Start Position",
+                "tooltip": "The effect's start position. If this value is a player, then the effect will move along with the player. Otherwise, the value is interpreted as a position in the world."
+            },
+            {
+                "parameter": "End Position",
+                "tooltip": "The effect's end position. If this value is a player, then the effect will move along with the player. Otherwise, the value is interpreted as a position in the world."
+            },
+            {
+                "parameter": "Color",
+                "tooltip": "The color of the beam effect to be created. If a particular team is chosen, the effect will either be red or blue, depending on whether the team is hostile to the viewer. Does not apply to sound effects. Only the \"Good\" and \"Bad\" beam effects can have color applied."
+            },
+            {
+                "parameter": "Reevaluation",
+                "tooltip": "Specifies which of this Action's inputs will be continuously reevaluated. the effect will keep asking for and using new values from reevaluated inputs."
+            }],
+
+        "TalonScript": {
+            "name": "createBeamEffect"
+        }
+    }
+}

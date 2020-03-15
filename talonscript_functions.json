@@ -1,0 +1,20 @@
+{
+    "abort": {
+        "workshop": "Abort"
+    },
+    "abortIf": {
+        "workshop": "Abort If"
+    },
+    "abortIfConditionFalse": {
+        "workshop": "Abort If Condition Is False"
+    },
+    "abortIfConditionTrue": {
+        "workshop": "Abort If Condition Is True"
+    },
+    "allowButton": {
+        "workshop": "Allow Button"
+    },
+    "applyImpulse": {
+        "workshop": "Apply Impulse"
+    }
+}
