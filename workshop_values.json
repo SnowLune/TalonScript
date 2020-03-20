@@ -7,7 +7,7 @@
         "parameter": "Value",
         "tooltip": "The real number value whose absolute value will be computed.",
         "default": "0",
-        "expects": "Real_Number_Values"
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -19,13 +19,13 @@
         "parameter": "Value",
         "tooltip": "The left-hand operand. May be any value that results in a number or vector.",
         "default": "0",
-        "expects": "All_Values"
+        "expects": "VALUES_ALL"
       },
       {
         "parameter": "Value",
         "tooltip": "The right-hand operand. May be any value that results in a number or vector.",
         "default": "0",
-        "expects": "All_Values"
+        "expects": "VALUES_ALL"
       }
     ]
   },
@@ -41,7 +41,7 @@
         "parameter": "Team",
         "tooltip": "The Team or Teams from which Players may come.",
         "default": "All Teams",
-        "expects": "Team_Values"
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -57,7 +57,7 @@
         "parameter": "Team",
         "tooltip": "The Team or Teams from which Players may come.",
         "default": "All Teams",
-        "expects": "Team_Values"
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -69,7 +69,7 @@
         "parameter": "Team",
         "tooltip": "The Team or Teams from which Players may come.",
         "default": "All Teams",
-        "expects": "Team_Values"
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -81,7 +81,7 @@
         "parameter": "Team",
         "tooltip": "The Team or Teams from which Players may come.",
         "default": "All Teams",
-        "expects": "Team_Values"
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -93,7 +93,7 @@
         "parameter": "Team",
         "tooltip": "The Team or Teams from which Players may come.",
         "default": "All Teams",
-        "expects": "Team_Values"
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -113,7 +113,7 @@
         "parameter": "Player",
         "tooltip": "The player whose allowed Heroes to acquire.",
         "default": "Event Player"
-        "expects": "Player_Values"
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -125,7 +125,7 @@
         "parameter": "Player",
         "tooltip": "The Player whose altitude to acquire.",
         "default": "Event Player"
-        "expects": "Player_Values"
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -137,13 +137,13 @@
         "parameter": "Value",
         "tooltip": "One of the two Inputs considered. If both are True (or equivalent to True), then the And Value is True.",
         "default": "True",
-        "expects": "Boolean_Values"
+        "expects": "VALUES_BOOLEAN"
       },
       {
         "parameter": "Value",
         "tooltip": "One of the two Inputs considered. If both are True (or equivalent to True), then the And Value is True.",
         "default": "True",
-        "expects": "Boolean_Values"
+        "expects": "VALUES_BOOLEAN"
       }
     ]
   },
@@ -172,12 +172,14 @@
       {
         "parameter": "Angle",
         "tooltip": "One of the two angles between which to measure the resulting angle.",
-        "expects": []
+        "default": "0",
+        "expects": "Angle_Values"
       },
       {
         "parameter": "Angle",
         "tooltip": "One of the two angles between which to measure the resulting angle.",
-        "expects": []
+        "default": "0",
+        "expects": "Angle_Values"
       }
     ]
   },
@@ -188,12 +190,14 @@
       {
         "parameter": "Array",
         "tooltip": "The array to which to append.",
-        "expects": []
+        "default": "All Player(All Teams)",
+        "expects": "VALUES_ALL"
       },
       {
         "parameter": "Value",
         "tooltip": "The value to append to the end of the array. If this value is itself an array, each element is appended.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_ALL"
       }
     ]
   },
@@ -204,7 +208,8 @@
       {
         "parameter": "Value",
         "tooltip": "Input Value for the function.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -215,7 +220,8 @@
       {
         "parameter": "Value",
         "tooltip": "Input Value for the function.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -226,7 +232,8 @@
       {
         "parameter": "Value",
         "tooltip": "Input Value for the function.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -237,7 +244,8 @@
       {
         "parameter": "Value",
         "tooltip": "Input Value for the function.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -248,12 +256,14 @@
       {
         "parameter": "Numerator",
         "tooltip": "Numerator input for the function.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       },
       {
         "parameter": "Denominator",
         "tooltip": "Denominator input for the function.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -264,12 +274,14 @@
       {
         "parameter": "Numerator",
         "tooltip": "Numerator input for the function.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       },
       {
         "parameter": "Denominator",
         "tooltip": "Denominator input for the function.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -280,12 +292,14 @@
       {
         "parameter": "Array",
         "tooltip": "The Array in which to search for the specified Value.",
-        "expects": []
+        "default": "All Players(All Teams)",
+        "expects": "VALUES_ALL"
       },
       {
         "parameter": "Value",
         "tooltip": "The Value for which to search.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_ALL"
       }
     ]
   },
@@ -296,17 +310,20 @@
       {
         "parameter": "Array",
         "tooltip": "The Array from which to make a copy.",
-        "expects": []
+        "default": "Global Variable(A)",
+        "expects": "VALUES_ALL"
       },
       {
         "parameter": "Start Index",
         "tooltip": "The first index of the range.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       },
       {
         "parameter": "Count",
         "tooltip": "The number of elements in the resulting Array. The resulting array will contain fewer elements if the specified range exceeds the bounds of the Array.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -325,12 +342,14 @@
       {
         "parameter": "Center",
         "tooltip": "The position from which to measure proximity.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_POSITION"
       },
       {
         "parameter": "Team",
         "tooltip": "The Team or Teams from which the closest Player will come.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -341,12 +360,14 @@
       {
         "parameter": "Value",
         "tooltip": "The left-hand side of the comparison. This may be any Value type if the operation is == or !=. Otherwise, real numbers are expected.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_ALL"
       },
       {
         "parameter": "Value",
         "tooltip": "The right-hand side of the comparison. This may be any Value type if the operation is == or !=. Otherwise, real numbers are expected.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_ALL"
       }
     ]
   },
@@ -357,7 +378,8 @@
       {
         "parameter": "Team",
         "tooltip": "The Team whose score perecentage to acquire.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -371,7 +393,9 @@
     "parameters": [
       {
         "parameter": "Angle",
-        "tooltip": "Angle in degrees."
+        "tooltip": "Angle in degrees.",
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -381,7 +405,9 @@
     "parameters": [
       {
         "parameter": "Angle",
-        "tooltip": "Angle in radians."
+        "tooltip": "Angle in radians.",
+        "defaults": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -391,7 +417,9 @@
     "parameters": [
       {
         "parameter": "Array",
-        "tooltip": "The array whose elemnts will be counted."
+        "tooltip": "The array whose elements will be counted.",
+        "default": "Global Variable(A)",
+        "expects": "VALUES_ALL"
       }
     ]
   },
@@ -402,12 +430,14 @@
       {
         "parameter": "Value",
         "tooltip": "The left-hand-side vector operand of the cross product.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_ALL"
       },
       {
         "parameter": "Value",
         "tooltip": "The right-hand-side vector operand of the cross product.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_ALL"
       }
     ]
   },
@@ -430,22 +460,26 @@
       {
         "parameter": "String",
         "tooltip": "The resulting text. Numbers in curly braces will be replaced with the corresponding Values. (To bypass this replacement and actually display a number surrounded by curly braces, use double curly braces.)",
-        "expects": []
+        "default": "",
+        "expects": ""
       },
       {
         "parameter": "{0}",
         "tooltip": "The Value that will be converted to text and used to replace {0}.",
-        "expects": []
+        "default": "Null",
+        "expects": "VALUES_ALL"
       },
       {
         "parameter": "{1}",
         "tooltip": "The Value that will be converted to text and used to replace {1}.",
-        "expects": []
+        "default": "Null",
+        "expects": "VALUES_ALL"
       },
       {
         "parameter": "{2}",
         "tooltip": "The Value that will be converted to text and used to replace {2}.",
-        "expects": []
+        "default": "Null",
+        "expects": "VALUES_ALL"
       }
     ]
   },
@@ -456,12 +490,14 @@
       {
         "parameter": "Horizontal Angle",
         "tooltip": "The horizontal Angle in degrees used to construct the resulting Vector.",
-        "expects": []
+        "default": "0",
+        "expects": "Angle_Values"
       },
       {
         "parameter": "Vertical Angle",
         "tooltip": "The vertical Angle in degrees used to construct the resulting Vector.",
-        "expects": []
+        "default": "0",
+        "expects": "Angle_Values"
       }
     ]
   },
@@ -472,12 +508,14 @@
       {
         "parameter": "Start Pos",
         "tooltip": "The position from which the resulting direction vector will point.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_POSITION"
       },
       {
         "parameter": "End Pos",
         "tooltip": "The position to which the resulting direction vector will point.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_POSITION"
       }
     ]
   },
@@ -488,12 +526,14 @@
       {
         "parameter": "Start Pos",
         "tooltip": "One of the two positions used in the distance measurement.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_POSITION"
       },
       {
         "parameter": "End Pos",
         "tooltip": "One of the two positions used in the distance measurement.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_POSITION"
       }
     ]
   },
@@ -504,12 +544,14 @@
       {
         "parameter": "Value",
         "tooltip": "The left-hand operand. May be any value that results in a number or a vector.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_ALL"
       },
       {
         "parameter": "Value",
         "tooltip": "The right-hand operand. May be any value that results in a number or a vector.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_ALL"
       }
     ]
   },
@@ -520,12 +562,14 @@
       {
         "parameter": "Value",
         "tooltip": "One of two vector operands of the dot product.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_ALL"
       },
       {
         "parameter": "Value",
         "tooltip": "One of two vector operands of the dot product.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_ALL"
       }
     ]
   },
@@ -544,7 +588,8 @@
       {
         "parameter": "Entity",
         "tooltip": "The Player, icon entity, or effect entity whose existence to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -575,7 +620,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose eye position to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -586,7 +632,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose facing direction to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -601,12 +648,14 @@
       {
         "parameter": "Center",
         "tooltip": "The position from which to measure distance.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_POSITION"
       },
       {
         "parameter": "Team",
         "tooltip": "The Team or Teams from which the farthest Player will come.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -617,12 +666,14 @@
       {
         "parameter": "Array",
         "tooltip": "The Array whose copy will be filtered.",
-        "expects": []
+        "default": "All Players(All Teams)",
+        "expects": "VALUES_ALL"
       },
       {
         "parameter": "Condition",
         "tooltip": "The condition that is evaluated for each element of the copied Array. If the condition is True, the element is kept in the copied array. Use the Current Array Element Value to reference the element of the Array currently being processed.",
-        "expects": []
+        "default": "Compare(0, ==, 0)",
+        "expects": "VALUES_BOOLEAN"
       }
     ]
   },
@@ -633,7 +684,8 @@
       {
         "parameter": "Array",
         "tooltip": "The Array from which the Value is acquired.",
-        "expects": []
+        "default": "Global Variable(A)",
+        "expects": "VALUES_ALL"
       }
     ]
   },
@@ -644,7 +696,8 @@
       {
         "parameter": "Team",
         "tooltip": "The Team whose flag position to acquire.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -659,7 +712,24 @@
       {
         "parameter": "Game Mode",
         "tooltip": "A Game Mode Constant.",
-        "expects": []
+        "default": "Assault",
+        "expects": [
+          "Assault",
+          "Capture The Flag",
+          "Control",
+          "Deathmatch",
+          "Elimination",
+          "Escort",
+          "Hybrid",
+          "Junkenstein's Revenge",
+          "Lúcioball",
+          "Mei's Snowball Offensive",
+          "Practice Range",
+          "Skirmish",
+          "Snowball Deathmatch",
+          "Team Deathmatch",
+          "Yeti Hunter"
+        ]
       }
     ]
   },
@@ -670,7 +740,8 @@
       {
         "parameter": "Variable",
         "tooltip": "The Variable whose Value to acquire.",
-        "expects": []
+        "default": "A",
+        "expects": ""
       }
     ]
   },
@@ -681,7 +752,8 @@
       {
         "parameter": "Entity",
         "tooltip": "The Player, icon entity, or effect entity whose presence in world to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -692,12 +764,25 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose status to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       },
       {
         "parameter": "Status",
         "tooltip": "The status to check for.",
-        "expects": []
+        "default": "Hacked",
+        "expects": [
+          "Hacked",
+          "Burning",
+          "Knocked Down",
+          "Asleep",
+          "Frozen",
+          "Unkillable",
+          "Invincible",
+          "Phased Out",
+          "Rooted",
+          "Stunned"
+        ]
       }
     ]
   },
@@ -716,7 +801,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose health to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -727,7 +813,40 @@
       {
         "parameter": "Hero",
         "tooltip": "A Hero constant.",
-        "expects": []
+        "default": "Ana",
+        "expects": [
+          "Ana",
+          "Ashe",
+          "Baptiste",
+          "Bastion",
+          "Brigitte",
+          "D.Va",
+          "Doomfist",
+          "Genji",
+          "Hanzo",
+          "Junkrat",
+          "Lúcio",
+          "McCree",
+          "Mei",
+          "Mercy",
+          "Moira",
+          "Orisa",
+          "Pharah",
+          "Reaper",
+          "Reinhardt",
+          "Roadhog",
+          "Sigma",
+          "Soldier: 76",
+          "Sombra",
+          "Symmetra",
+          "Torbjörn",
+          "Tracer",
+          "Widowmaker",
+          "Winston",
+          "Wrecking Ball",
+          "Zarya",
+          "Zenyatta"
+        ]
       }
     ]
   },
@@ -738,7 +857,8 @@
       {
         "parameter": "Value",
         "tooltip": "The Hero that will be converted to an icon.",
-        "expects": []
+        "default": "Hero(Ana)",
+        "expects": "VALUES_HERO"
       }
     ]
   },
@@ -749,7 +869,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose Hero to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -760,7 +881,8 @@
       {
         "parameter": "Direction",
         "tooltip": "The direction Vector from which to acquire a horizontal angle in degrees. The Vector is unitized before calculation begins.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_LOCDIR"
       }
     ]
   },
@@ -771,12 +893,14 @@
       {
         "parameter": "Player",
         "tooltip": "The Player from whose current facing the angle begins.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       },
       {
         "parameter": "Position",
         "tooltip": "The position in the world where the angle ends.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_POSITION"
       }
     ]
   },
@@ -787,7 +911,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose horizontal facing angle to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -798,7 +923,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose horizontal speed to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -861,12 +987,14 @@
       {
         "parameter": "Array",
         "tooltip": "The Array in which to search for the specified Value.",
-        "expects": []
+        "default": "All Players(All Teams)",
+        "expects": "VALUES_ALL"
       },
       {
         "parameter": "Value",
         "tooltip": "The Value for which to search.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_ALL"
       }
     ]
   },
@@ -877,7 +1005,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose life to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -896,11 +1025,13 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose button to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       },
       {
         "parameter": "Button",
         "tooltip": "The button to check.",
+        "default": "Primary Fire",
         "expects": [
           "Primary Fire",
           "Secondary Fire",
@@ -923,11 +1054,13 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose communication status to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       },
       {
         "parameter": "Type",
         "tooltip": "The type of communication to consider. The duration of emotes is exact, the duration of voice lines is assumed to be 4 seconds, and all other durations are assumed to be 2 seconds.",
+        "default": "Voice Line Up",
         "expects": [
           "Voice Line Up",
           "Voice Line Left",
@@ -954,7 +1087,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose communication status to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -965,7 +1099,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose emoting status to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -976,7 +1111,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose voice line status to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -991,7 +1127,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose crouching status to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1006,7 +1143,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose death to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1017,7 +1155,8 @@
       {
         "parameter": "Player",
         "tooltip": "Player to consider.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1028,7 +1167,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose primary weapon attack usage to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1039,7 +1179,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose secondary weapon attack usage to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1050,7 +1191,8 @@
       {
         "parameter": "Team",
         "tooltip": "The Team whose flag to check.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -1061,7 +1203,8 @@
       {
         "parameter": "Team",
         "tooltip": "The Team whose flag to check.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -1076,12 +1219,14 @@
       {
         "parameter": "Hero",
         "tooltip": "The Hero to check for play.",
-        "expects": []
+        "default": "Hero(Ana)",
+        "expects": "VALUES_HERO"
       },
       {
         "parameter": "Team",
         "tooltip": "The Team or Teams on which to check for the Hero being played.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -1092,7 +1237,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose airborne status to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1103,16 +1249,19 @@
       {
         "parameter": "Start Pos",
         "tooltip": "The start position for the line-of-sight check. If a Player is provided, a position 2 meters above the Player's feet is used.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_POSITION"
       },
       {
         "parameter": "End Pos",
         "tooltip": "The end position for the line-of-sight check. If a Player is provided, a position 2 meters above the Player's feet is used.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_POSITION"
       },
       {
         "parameter": "Barriers",
         "tooltip": "Defines how barriers affect line-of-sight. When considering whether a barrier belongs to an enemy, the allegiance of the Player provided to Start Pos (if any) is used.",
+        "default": "Barriers Do Not Block LOS",
         "expects": [
           "Barriers Do Not Block LOS",
           "Enemy Barriers Block LOS",
@@ -1132,7 +1281,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose spawn room status to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1143,17 +1293,20 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose view to use for the check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       },
       {
         "parameter": "Location",
         "tooltip": "The Location to test if it's within view.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "Location_Vectors"
       },
       {
         "parameter": "View Angle",
         "tooltip": "The view angle to compare against in degrees.",
-        "expects": []
+        "default": "45"
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -1168,7 +1321,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose moving status to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1179,7 +1333,8 @@
       {
         "parameter": "Number",
         "tooltip": "The index of the objective to consider, starting at 0 and counting up. Each control point, payload checkpoint, and payload destination has its own index.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -1190,7 +1345,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose ground status to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1201,7 +1357,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose objective status to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1212,7 +1369,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose wall status to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1223,7 +1381,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose portrait to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1234,7 +1393,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose standing status to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1245,7 +1405,8 @@
       {
         "parameter": "Team",
         "tooltip": "The Team whose role to check.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -1256,7 +1417,8 @@
       {
         "parameter": "Team",
         "tooltip": "The Team whose role to check.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -1267,12 +1429,14 @@
       {
         "parameter": "Array",
         "tooltip": "The Array whose values will be considered.",
-        "expects": []
+        "default": "Global Variable(A)",
+        "expects": "VALUES_ALL"
       },
       {
         "parameter": "Condition",
         "tooltip": "The condition that is evaluated for each element of the specified Array. Use the Current Array Element Value to reference the element of the Array currently being considered.",
-        "expects": []
+        "default": "Compare(0, ==, 0)",
+        "expects": "VALUES_BOOLEAN"
       }
     ]
   },
@@ -1283,12 +1447,14 @@
       {
         "parameter": "Array",
         "tooltip": "The Array whose values will be considered.",
-        "expects": []
+        "default": "Global Variable(A)",
+        "expects": "VALUES_ALL"
       },
       {
         "parameter": "Condition",
         "tooltip": "The condition that is evaluated for each element of the specified Array. Use the Current Array Element Value to reference the element of the Array currently being considered.",
-        "expects": []
+        "default": "Compare(0, ==, 0)",
+        "expects": "VALUES_BOOLEAN"
       }
     ]
   },
@@ -1299,7 +1465,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose Ability 1 usage to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1310,7 +1477,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose Ability 2 usage to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1321,7 +1489,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose ultimate ability usage to check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1356,7 +1525,8 @@
       {
         "parameter": "Array",
         "tooltip": "The Array from which the Value is acquired.",
-        "expects": []
+        "default": "Global Variable(A)",
+        "expects": "VALUES_ALL"
       }
     ]
   },
@@ -1375,16 +1545,19 @@
       {
         "parameter": "World Vector",
         "tooltip": "The Vector in world coordinates that will be converted to local coordinates.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "Location_Vectors"
       },
       {
         "parameter": "Relative Player",
         "tooltip": "The Player to whom the resulting Vector will be relative.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       },
       {
         "parameter": "Transformation",
         "tooltip": "Specifies whether the Vector should receive a rotation and a translation (usually applied to positions) or only a rotation (usually applied to directions and velocities).",
+        "default": "Rotation",
         "expects": [
           "Rotation",
           "Rotation And Translation"
@@ -1399,30 +1572,31 @@
       {
         "parameter": "Map",
         "tooltip": "A Map constant.",
+        "default": "Ayutthaya",
         "expects": [
           "Ayutthaya",
           "Black Forest",
-          "Black Forest (Winter)",
+          "Black Forest Winter",
           "Blizzard World",
-          "Blizzard World (Winter)",
+          "Blizzard World Winter",
           "Busan",
-          "Busan Downtown (Lunar New Year)",
-          "Busan Sanctuary (Lunar New Year)",
+          "Busan Downtown Lunar New Year",
+          "Busan Sanctuary Lunar New Year",
           "Busan Stadium",
           "Castillo",
           "Château Guillard",
-          "Château Guillard (Halloween)",
+          "Château Guillard Halloween",
           "Dorado",
           "Ecopoint: Antarctica",
-          "Ecopoint: Antarctica (Winter)",
+          "Ecopoint: Antarctica Winter",
           "Eichenwalde",
-          "Eichenwalde (Halloween)",
-          "Estádio Das Rãs",
+          "Eichenwalde Halloween",
+          "Estádio das Rãs",
           "Hanamura",
-          "Hanamura (Winter)",
+          "Hanamura Winter",
           "Havana",
           "Hollywood",
-          "Hollywood (Halloween)",
+          "Hollywood Halloween",
           "Horizon Lunar Colony",
           "Ilios",
           "Ilios Lighthouse",
@@ -1431,15 +1605,38 @@
           "Junkenstein's Revenge",
           "Junkertown",
           "King's Row",
-          "King's Row (Winter)",
+          "King's Row Winter",
           "Lijiang Control Center",
-          "Lijiang Control Center (Lunar New Year)",
+          "Lijiang Control Center Lunar New Year",
           "Lijiang Garden",
-          "Lijiang Garden (Lunar New Year)",
+          "Lijiang Garden Lunar New Year",
           "Lijiang Night Market",
-          "Lijiang Night Market (Lunar New Year)",
+          "Lijiang Night Market Lunar New Year",
           "Lijiang Tower",
-          "Lijiang Tower (Lunar New Year)"
+          "Lijiang Tower Lunar New Year",
+          "Necropolis",
+          "Nepal",
+          "Nepal Sanctum",
+          "Nepal Shrine",
+          "Nepal Village",
+          "Nepal Village Winter",
+          "Numbani",
+          "Oasis",
+          "Oasis City Center",
+          "Oasis Gardens",
+          "Oasis University",
+          "Paris",
+          "Petra",
+          "Practice Range",
+          "Rialto",
+          "Route 66",
+          "Sydney Harbour Arena",
+          "Temple of Anubis",
+          "Volskaya Industries",
+          "Watchpoint: Gibraltar",
+          "Workshop Chamber",
+          "Workshop Expanse",
+          "Workshop Island"
         ]
       }
     ]
@@ -1458,12 +1655,14 @@
       {
         "parameter": "Value",
         "tooltip": "The left-hand operand. May be any Value that results in a number.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       },
       {
         "parameter": "Value",
         "tooltip": "The right-hand operand. May be any Value that results in a number.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -1474,7 +1673,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose max health to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1485,12 +1685,14 @@
       {
         "parameter": "Value",
         "tooltip": "The left-hand operand. May be any Value that results in a number.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       },
       {
         "parameter": "Value",
         "tooltip": "The right-hand operand. May be any Value that results in a number.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -1501,12 +1703,14 @@
       {
         "parameter": "Value",
         "tooltip": "The left-hand operand. May be any Value that results in a number.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       },
       {
         "parameter": "Value",
         "tooltip": "The right-hand operand. May be any Value that results in a number.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -1517,12 +1721,14 @@
       {
         "parameter": "Value",
         "tooltip": "The left-hand operand. May be any Value that results in a number or vector.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       },
       {
         "parameter": "Value",
         "tooltip": "The right-hand operand. May be any Value that results in a number or vector.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -1533,7 +1739,8 @@
       {
         "parameter": "Position",
         "tooltip": "The position from which to search for the Nearest Walkable Position.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_POSITION"
       }
     ]
   },
@@ -1544,7 +1751,8 @@
       {
         "parameter": "Vector",
         "tooltip": "The Vector to normalize.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_LOCATION"
       }
     ]
   },
@@ -1555,7 +1763,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose normalized health to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1566,7 +1775,8 @@
       {
         "parameter": "Value",
         "tooltip": "When this Input is False (or equivalent to False), then the Not Value is True. Otherwise, the Not Value is False.",
-        "expects": []
+        "default": "True",
+        "expects": "VALUES_BOOLEAN"
       }
     ]
   },
@@ -1581,7 +1791,8 @@
       {
         "parameter": "Number",
         "tooltip": "A real number constant.",
-        "expects": []
+        "default": "0"
+        "expects": ""
       }
     ]
   },
@@ -1592,7 +1803,8 @@
       {
         "parameter": "Team",
         "tooltip": "The Team or Teams on which to count Players.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -1603,7 +1815,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose death count to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1614,7 +1827,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose eliminaton count to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1625,7 +1839,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose final blow count to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1636,12 +1851,14 @@
       {
         "parameter": "Hero",
         "tooltip": "The Hero to check for play.",
-        "expects": []
+        "default": "Hero(Ana)",
+        "expects": "VALUES_HERO"
       },
       {
         "parameter": "Team",
         "tooltip": "The Team or Teams on which to check for the Hero being played.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -1652,7 +1869,8 @@
       {
         "parameter": "Team",
         "tooltip": "The Team or Teams on which to count Players.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -1663,7 +1881,8 @@
       {
         "parameter": "Team",
         "tooltip": "The Team or Teams on which to count Players.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -1674,7 +1893,8 @@
       {
         "parameter": "Team",
         "tooltip": "The Team or Teams on which to count Players.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -1689,7 +1909,8 @@
       {
         "parameter": "Number",
         "tooltip": "The index of the objective to consider, starting at 0 and counting up. Each control point, payload checkpoint, and payload destination has its own index.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -1700,7 +1921,8 @@
       {
         "parameter": "Team",
         "tooltip": "The Team whose opposite to acquire. If All, the result will be All.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -1711,12 +1933,14 @@
       {
         "parameter": "Value",
         "tooltip": "One of the two Inputs considered. If either one is True (or equivalent to True), then the Or Value is True.",
-        "expects": []
+        "default": "True",
+        "expects": "VALUES_BOOLEAN"
       },
       {
         "parameter": "Value",
         "tooltip": "One of the two Inputs considered. If either one is True (or equivalent to True), then the Or Value is True.",
-        "expects": []
+        "default": "True",
+        "expects": "VALUES_BOOLEAN"
       }
     ]
   },
@@ -1735,7 +1959,8 @@
       {
         "parameter": "Team",
         "tooltip": "The Team whose flag to check.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -1746,12 +1971,14 @@
       {
         "parameter": "Player",
         "tooltip": "The Player from whose reticle to search for the closest Player.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       },
       {
         "parameter": "Team",
         "tooltip": "The Team or Teams on which to search for the closest Player.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -1762,12 +1989,14 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose Variable Value to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       },
       {
         "parameter": "Variable",
         "tooltip": "The Variable whose Value to acquire.",
-        "expects": []
+        "default": "A"
+        "expects": ""
       }
     ]
   },
@@ -1778,12 +2007,14 @@
       {
         "parameter": "Slot",
         "tooltip": "The slot number from which to acquire a Player or Players. In Team games, each Team has slots 0 through 5. In free-for-all games, slots are numbered 0 through 11",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       },
       {
         "parameter": "Team",
         "tooltip": "The Team or Teams from which to acquire a Player or Players.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -1794,17 +2025,20 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose view to use for the check.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       },
       {
         "parameter": "Team",
         "tooltip": "The Team or Teams on which to consider Players.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       },
       {
         "parameter": "View Angle",
         "tooltip": "The view angle to compare against in degrees.",
-        "expects": []
+        "default": "45",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -1815,12 +2049,14 @@
       {
         "parameter": "Hero",
         "tooltip": "The Hero to check for play.",
-        "expects": []
+        "default": "Hero(Ana)",
+        "expects": "VALUES_HERO"
       },
       {
         "parameter": "Team",
         "tooltip": "The Team or Teams on which to check for the Hero being played.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -1831,21 +2067,25 @@
       {
         "parameter": "Center",
         "tooltip": "The center position from which to measure distance.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_POSITION"
       },
       {
         "parameter": "Radius",
         "tooltip": "The radius in meters inside which Players must be in order to be included in the resulting array.",
-        "expects": []
+        "default": "5",
+        "expects": "VALUES_REALNUMBER"
       },
       {
         "parameter": "Team",
         "tooltip": "The Team or Teams to which a Player must belong to be included in the resulting array.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       },
       {
         "parameter": "LOS Check",
         "tooltip": "Specifies whether and how a Player must pass a line-of-sight check to be included in the resulting array.",
+        "default": "Off",
         "expects": [
           "Off",
           "Surfaces",
@@ -1866,7 +2106,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose position to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -1877,12 +2118,14 @@
       {
         "parameter": "Value",
         "tooltip": "The left-hand operand. May be any Value that results in a number.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       },
       {
         "parameter": "Value",
         "tooltip": "The right-hand operand. May be any Value that results in a number.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -1893,12 +2136,14 @@
       {
         "parameter": "Min",
         "tooltip": "The smallest integer allowed. If a real number is provided to this Input, it is rounded to the nearest integer.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       },
       {
         "parameter": "Max",
         "tooltip": "The largest integer allowed. If a real number is provided to this Input, it is rounded to the nearest integer.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -1909,12 +2154,14 @@
       {
         "parameter": "Min",
         "tooltip": "The smallest real number allowed.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       },
       {
         "parameter": "Max",
         "tooltip": "The largest real number allowed.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -1925,7 +2172,8 @@
       {
         "parameter": "Array",
         "tooltip": "The array from which to randomly take a Value. If a non-array Value is provided, the result is simply the provided Value.",
-        "expects": []
+        "default": "Global Variable(A)",
+        "expects": "VALUES_ALL"
       }
     ]
   },
@@ -1936,7 +2184,8 @@
       {
         "parameter": "Array",
         "tooltip": "The array whose copy will be randomized.",
-        "expects": []
+        "default": "Global Variable(A)",
+        "expects": "VALUES_ALL"
       }
     ]
   },
@@ -1947,27 +2196,32 @@
       {
         "parameter": "Start Pos",
         "tooltip": "The start position for the ray cast. If a Player is provided, a position 2 meters above the Player's feet is used.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_POSITION"
       },
       {
         "parameter": "End Pos",
         "tooltip": "The end position for the ray cast. If a Player is provided, a position 2 meters above the Player's feet is used.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_POSITION"
       },
       {
         "parameter": "Players To Include",
         "tooltip": "Which Players can be hit by this ray cast.",
-        "expects": []
+        "default": "All Players(All Teams)",
+        "expects": "VALUES_PLAYER"
       },
       {
         "parameter": "Players To Exclude",
         "tooltip": "Which Players cannot be hit by this ray cast. This list takes precedence over Players to include.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       },
       {
         "parameter": "Include Player Owned Objects",
         "tooltip": "Whether Player owned objects (such as barriers or turrets) should be included in the ray cast.",
-        "expects": []
+        "default": "True",
+        "expects": "VALUES_BOOLEAN"
       }
     ]
   },
@@ -1978,27 +2232,32 @@
       {
         "parameter": "Start Pos",
         "tooltip": "The start position for the ray cast. If a Player is provided, a position 2 meters above the Player's feet is used.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_POSITION"
       },
       {
         "parameter": "End Pos",
         "tooltip": "The end position for the ray cast. If a Player is provided, a position 2 meters above the Player's feet is used.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_POSITION"
       },
       {
         "parameter": "Players To Include",
         "tooltip": "Which Players can be hit by this ray cast.",
-        "expects": []
+        "default": "All Players(All Teams)",
+        "expects": "VALUES_PLAYER"
       },
       {
         "parameter": "Players To Exclude",
         "tooltip": "Which Players cannot be hit by this ray cast. This list takes precedence over Players to include.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       },
       {
         "parameter": "Include Player Owned Objects",
         "tooltip": "Whether Player owned objects (such as barriers or turrets) should be included in the ray cast.",
-        "expects": []
+        "default": "True",
+        "expects": "VALUES_BOOLEAN"
       }
     ]
   },
@@ -2009,27 +2268,32 @@
       {
         "parameter": "Start Pos",
         "tooltip": "The start position for the ray cast. If a Player is provided, a position 2 meters above the Player's feet is used.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_POSITION"
       },
       {
         "parameter": "End Pos",
         "tooltip": "The end position for the ray cast. If a Player is provided, a position 2 meters above the Player's feet is used.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_POSITION"
       },
       {
         "parameter": "Players To Include",
         "tooltip": "Which Players can be hit by this ray cast.",
-        "expects": []
+        "default": "All Players(All Teams)",
+        "expects": "VALUES_PLAYER"
       },
       {
         "parameter": "Players To Exclude",
         "tooltip": "Which Players cannot be hit by this ray cast. This list takes precedence over Players to include.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       },
       {
         "parameter": "Include Player Owned Objects",
         "tooltip": "Whether Player owned objects (such as barriers or turrets) should be included in the ray cast.",
-        "expects": []
+        "default": "True",
+        "expects": "VALUES_BOOLEAN"
       }
     ]
   },
@@ -2040,12 +2304,14 @@
       {
         "parameter": "Array",
         "tooltip": "The array from which to remove Values.",
-        "expects": []
+        "default": "All Players(All Teams)",
+        "expects": "VALUES_ALL"
       },
       {
         "parameter": "Value",
         "tooltip": "The Value to remove from the array (if found). If this Value is itself an array, each matching element is removed.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_ALL"
       }
     ]
   },
@@ -2060,11 +2326,13 @@
       {
         "parameter": "Value",
         "tooltip": "The real number to round.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       },
       {
         "parameter": "Rounding Type",
         "tooltip": "Determines the direction in which the Value will be rounded.",
+        "default": "Up",
         "expects": [
           "Up",
           "Down",
@@ -2080,7 +2348,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose score to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -2103,7 +2372,8 @@
       {
         "parameter": "Angle",
         "tooltip": "Angle in degrees.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -2114,7 +2384,8 @@
       {
         "parameter": "Angle",
         "tooltip": "Angle in radians.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -2125,7 +2396,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose slot number to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -2136,12 +2408,14 @@
       {
         "parameter": "Array",
         "tooltip": "The array whose copy will be sorted.",
-        "expects": []
+        "default": "Global Variable(A)",
+        "expects": "VALUES_ALL"
       },
       {
         "parameter": "Value Rank",
         "tooltip": "The Value that is evaluated for each element of the copied array. The array is sorted by this rank in ascending order. Use the Current Array Element Value to reference the element of the array currently being processed.",
-        "expects": []
+        "default": "Current Array Element",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -2152,7 +2426,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose speed to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -2163,12 +2438,14 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose speed to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       },
       {
         "parameter": "Direction",
         "tooltip": "The direction of travel in which to measure the Player's speed.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR"
       }
     ]
   },
@@ -2179,7 +2456,8 @@
       {
         "parameter": "Value",
         "tooltip": "The real number whose square root will be computed. Negative Values result in zero.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -2190,22 +2468,26 @@
       {
         "parameter": "String",
         "tooltip": "The resulting text. Numbers in curly braces will be replaced with the corresponding Values.",
-        "expects": []
+        "default": "Hello", 
+        "expects": "VALUES_STRING"
       },
       {
         "parameter": "{0}",
         "tooltip": "The Value that will be converted to text and used to replace {0}.",
-        "expects": []
+        "default": "Null",
+        "expects": "VALUES_ALL"
       },
       {
         "parameter": "{1}",
         "tooltip": "The Value that will be converted to text and used to replace {1}.",
-        "expects": []
+        "default": "Null",
+        "expects": "VALUES_ALL"
       },
       {
         "parameter": "{2}",
         "tooltip": "The Value that will be converted to text and used to replace {2}.",
-        "expects": []
+        "default": "Null",
+        "expects": "VALUES_ALL"
       }
     ]
   },
@@ -2216,12 +2498,14 @@
       {
         "parameter": "Value",
         "tooltip": "The left-hand operand. May be any Value that results in a number or vector.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_ALL"
       },
       {
         "parameter": "Value",
         "tooltip": "The right-hand operand. May be any Value that results in a number or vector.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_ALL"
       }
     ]
   },
@@ -2232,7 +2516,8 @@
       {
         "parameter": "Angle",
         "tooltip": "Angle in degrees.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_ANGLE"
       }
     ]
   },
@@ -2243,7 +2528,8 @@
       {
         "parameter": "Angle",
         "tooltip": "Angle in radians.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -2254,8 +2540,9 @@
       {
         "parameter": "Team",
         "tooltip": "A Team constant. The All option represents both Teams in a team game or all players in a free-for-all game.",
+        "default": "All Teams",
         "expects": [
-          "All",
+          "All Teams",
           "Team 1",
           "Team 2"
         ]
@@ -2269,7 +2556,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose Team to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -2280,7 +2568,8 @@
       {
         "parameter": "Team",
         "tooltip": "The Team whose score to acquire.",
-        "expects": []
+        "default": "All Teams",
+        "expects": "VALUES_TEAM"
       }
     ]
   },
@@ -2291,7 +2580,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose directional input to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -2310,7 +2600,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose ultimate charge percentage to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -2325,12 +2616,14 @@
       {
         "parameter": "Array",
         "tooltip": "The array whose element to acquire.",
-        "expects": []
+        "default": "Global Variable(A)",
+        "expects": "VALUES_ALL"
       },
       {
         "parameter": "Index",
         "tooltip": "The index of the element to acquire.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -2341,17 +2634,20 @@
       {
         "parameter": "X",
         "tooltip": "The X Value of the vector.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       },
       {
         "parameter": "Y",
         "tooltip": "The Y Value of the vector.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       },
       {
         "parameter": "Z",
         "tooltip": "The Z Value of the vector.",
-        "expects": []
+        "default": "0",
+        "expects": "VALUES_REALNUMBER"
       }
     ]
   },
@@ -2362,12 +2658,14 @@
       {
         "parameter": "Start Pos",
         "tooltip": "The position from which the resulting displacement Vector begins.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_POSITION"
       },
       {
         "parameter": "End Pos",
         "tooltip": "The position at which the resulting displacement Vector ends.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_POSITION"
       }
     ]
   },
@@ -2378,7 +2676,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose velocty to acquire.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -2389,7 +2688,8 @@
       {
         "parameter": "Direction",
         "tooltip": "The direction Vector from which to acquire a vertical angle in degrees. The Vector is unitized before calculation begins.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_LOCDIR"
       }
     ]
   },
@@ -2400,12 +2700,14 @@
       {
         "parameter": "Player",
         "tooltip": "The Player from whose current facing the angle begins.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       },
       {
         "parameter": "Position",
         "tooltip": "The position in the world where the angle ends.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_POSITION"
       }
     ]
   },
@@ -2416,7 +2718,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose vertical facing angle to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -2427,7 +2730,8 @@
       {
         "parameter": "Player",
         "tooltip": "The Player whose vertical speed to acquire.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       }
     ]
   },
@@ -2442,17 +2746,23 @@
       {
         "parameter": "Local Vector",
         "tooltip": "The Vector in local coordinates that will be converted to world coordinates.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_LOCDIR"
       },
       {
         "parameter": "Relative Player",
         "tooltip": "The Player to whom the local vector is relative.",
-        "expects": []
+        "default": "Event Player",
+        "expects": "VALUES_PLAYER"
       },
       {
         "parameter": "Transformation",
         "tooltip": "Specifies whether the Vector should receive a rotation and a translation (usually applied to positions) or only a rotation (usually applied to directions and velocities).",
-        "expects": []
+        "default": "Rotation",
+        "expects": [
+          "Rotation",
+          "Rotation And Translation"
+        ]
       }
     ]
   },
@@ -2463,7 +2773,8 @@
       {
         "parameter": "Value",
         "tooltip": "The Vector from which to acquire the X component.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_LOCDIR"
       }
     ]
   },
@@ -2474,7 +2785,8 @@
       {
         "parameter": "Value",
         "tooltip": "The Vector from which to acquire the Y component.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_LOCDIR"
       }
     ]
   },
@@ -2485,7 +2797,8 @@
       {
         "parameter": "Value",
         "tooltip": "The Vector from which to acquire the Z component.",
-        "expects": []
+        "default": "Vector(0, 0, 0)",
+        "expects": "VALUES_VECTOR_LOCDIR"
       }
     ]
   }
